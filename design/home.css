@@ -1,0 +1,21 @@
+.navbar {
+  color: transparent !important;
+}
+.button {
+  background-color: #8d3f26;
+  color: #fff;
+  border-color: #8d3f26;
+  outline-color: transparent;
+  transition: 0.3s;
+   padding-left:20px;
+  padding-right:20px;
+  padding-top:5px;
+  padding-bottom: 10px;
+}
+.home{
+  background: url('../pages/images/homepage.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}

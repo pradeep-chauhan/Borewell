@@ -1,0 +1,7 @@
+@font-face {
+  font-family: wolf;
+  src: url(../font/icomoon.f0b8a3b3.woff2);
+}
+body{
+  font-family: wolf;
+}
