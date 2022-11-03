@@ -5,6 +5,7 @@ import AboutUs from './modules/AboutUs'
 import Gallery from './modules/Gallery'
 import Navbar from './modules/Homepage/Homepage'
 import Services from './modules/Services'
+import Testimonial from './modules/Testimonial'
 import Videos from './modules/Videos'
 
 
@@ -16,6 +17,7 @@ export default function Home() {
       <AboutUs />
       <Gallery />
       <Videos />
+      <Testimonial />
       
     </div>
   )

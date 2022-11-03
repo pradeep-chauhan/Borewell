@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import '../design/common.css'
 import '../design/home.css'
+import '../design/testimonail.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
