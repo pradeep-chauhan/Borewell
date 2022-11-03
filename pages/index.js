@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import AboutUs from './modules/AboutUs'
+import ContactUs from './modules/ContactUs'
 import Gallery from './modules/Gallery'
 import Navbar from './modules/Homepage/Homepage'
 import Services from './modules/Services'
@@ -16,9 +17,9 @@ export default function Home() {
       <Services />
       <AboutUs />
       <Gallery />
-      <Videos />
+      {/* <Videos /> */}
       <Testimonial />
-      
+      <ContactUs />
     </div>
   )
 }
