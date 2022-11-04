@@ -3,6 +3,7 @@
   src: url(../font/icomoon.f0b8a3b3.woff2);
 }
 body{
+  background-color: beige;
   font-family: wolf;
 }
 .paragraph{
@@ -26,7 +27,6 @@ body{
 .img-curve{
   border-radius: 15px 15px 15px 15px;
 }
-
 ul {
   list-style-type: none;
 }

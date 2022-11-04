@@ -1,13 +1,10 @@
 import React from 'react'
-
 function FooterWebsite() {
   const today = new Date();
   const year = today.getFullYear();
   return (
     <div>
-
       <div className="container ">
-        
         <div className="row  pt-5">
         <hr></hr>
           <div className="col-12 col-md-8 col-sm-12 col-xs-12 mt-3 mb-2 ">
@@ -18,7 +15,6 @@ function FooterWebsite() {
           </div>
         </div>
       </div>
-
     </div>
   )
 }

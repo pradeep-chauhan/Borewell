@@ -110,8 +110,8 @@
 
 import React from 'react'
 import Image from 'next/image'
-import Image1 from '../images/Call center.gif'
-
+//import Image1 from '../images/Call center.gif'
+import Image1 from '../images/Call-center-cuate.svg'
 function handleSubmit(e){
 e.preventDefault()
   alert("we will contact you shortly")

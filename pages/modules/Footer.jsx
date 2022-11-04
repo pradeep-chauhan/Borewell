@@ -1,39 +1,3 @@
-// import React from 'react'
-// import { Facebook, Instagram, Whatsapp } from 'react-bootstrap-icons'
-
-// const Footer = () => {
-//   return (
-//     <div>
-//       <div className='container'>
-//         <div className='row'>
-//           <div className='col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12 mt-5'>
-//             <ul className="list-inline mb-0 mt-3 mb-5">
-//               <li className="list-inline-item">HOME</li>
-//               <li className="list-inline-item">SERVICES</li>
-//               <li className="list-inline-item">ABOUT US</li>
-//               <li className="list-inline-item">GALLERY</li>
-//               <li className="list-inline-item">TESTIMONIALS</li>
-//               <li className="list-inline-item">CONTACT</li>
-//             </ul>
-//           </div>
-//           <div className='col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12  mt-5'>
-//             <ul className="list-inline mb-0 mt-3 justify-content-end">
-//               <li className="list-inline-item btn btn-white btn-sm shadow px-2 text-facebook"><a href="https://www.facebook.com/vinayaksteelfurniture/"> <Facebook></Facebook> </a></li>
-//               <li className="list-inline-item btn btn-white btn-sm shadow px-2 text-instagram" href="#"><Instagram ></Instagram></li>
-//               <li className="list-inline-item btn btn-white btn-sm shadow px-2 text-whatsapp"><a href="https://api.whatsapp.com/send?phone=919694985000" class="float " target="_blank"><Whatsapp ></Whatsapp></a></li>
-//             </ul>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Footer
-
-
-
-
 import React from 'react'
 import { Map, Phone, Envelope } from 'react-bootstrap-icons';
 import { Facebook, Instagram, Whatsapp, Twitter } from 'react-bootstrap-icons'
@@ -55,19 +19,6 @@ const Footer = () => {
             <br />
           </div>
           <div className='col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12'>
-            {/* <p className="inline d-flex justify-content-start contact-us-paragraph ">
-              <Map className="fa fa-map-marker contactIcon "></Map>
-              648, Zinc Smelter, Debari, near manisha medical, Udaipur, Rajasthan 313024
-            </p>
-            
-            <p className="inline d-flex justify-content-start contact-us-paragraph  ">
-              <Phone className="fa fa-phone contactIcon"></Phone>
-              <a href="tel:+91xxxxxxxxxx" className="">+91-1234567890</a>
-            </p>
-            <p className='inline d-flex justify-content-start contact-us-paragraph  mb-5'>
-              <Envelope className='contactIcon '> </Envelope>
-              <a href="mailto:abc.com" className=""> xyz@gmail.com </a>
-            </p> */}
             <div className='row'>
               <div className='col-md-1 col-xl-1 col-lg-1 col-sm-1'>
                 <Map className="fa fa-map-marker"></Map>
@@ -101,5 +52,4 @@ const Footer = () => {
     </section>
   )
 }
-
 export default Footer
