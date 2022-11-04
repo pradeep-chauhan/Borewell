@@ -21,7 +21,6 @@ const Footer = () => {
               <li className="list-inline-item btn btn-white btn-sm shadow px-2 text-facebook"><a href="https://www.facebook.com/vinayaksteelfurniture/"> <Facebook></Facebook> </a></li>
               <li className="list-inline-item btn btn-white btn-sm shadow px-2 text-instagram" href="#"><Instagram ></Instagram></li>
               <li className="list-inline-item btn btn-white btn-sm shadow px-2 text-whatsapp"><a href="https://api.whatsapp.com/send?phone=919694985000" class="float " target="_blank"><Whatsapp ></Whatsapp></a></li>
-
             </ul>
           </div>
         </div>

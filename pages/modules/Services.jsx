@@ -52,7 +52,6 @@ const Services = () => {
                 <h5 class="card-title sub-heading">Water Refining Treatment</h5>
                 <p class="card-text mb-4 paragraph">Water refining treatment is the process used to make water more acceptable for the desired end-user.</p>
                 <a href="#" class="btn btn-primary text-white mt-auto align-self-start button rounded-pill">Enquire Now</a>
-
               </div>
             </div>
           </div>

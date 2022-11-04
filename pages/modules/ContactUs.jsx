@@ -24,49 +24,40 @@ const ContactUs = () => {
                 <div className='row'>
                   <div className='col-md-2 col-xl-2 col-lg-2 col-sm-2'>
                     <Image src={Image1} className='img-fluid img-curve' />
-
                   </div>
                   <div className='col-md-10 col-xl-10 col-lg-10 col-sm-10'>
                     <h6>Our Office Address</h6>
                     <p>648, Zinc Smelter, Debari, near manisha medical, Udaipur, Rajasthan 313024</p>
                   </div>
-
                 </div>
                 <div className='row'>
                   <div className='col-md-2 col-xl-2 col-lg-2 col-sm-2'>
                     <Image src={Image2} className='img-fluid img-curve' />
-
                   </div>
                   <div className='col-md-10 col-xl-10 col-lg-10 col-sm-10'>
                     <h6>Our Office Address</h6>
                     <p>648, Zinc Smelter, Debari, near manisha medical, Udaipur, Rajasthan 313024</p>
                   </div>
-
                 </div>
                 <div className='row'>
                   <div className='col-md-2 col-xl-2 col-lg-2 col-sm-2'>
                     <Image src={Image3} className='img-fluid img-curve' />
-
                   </div>
                   <div className='col-md-10 col-xl-10 col-lg-10 col-sm-10'>
                     <h6>Our Office Address</h6>
                     <p>648, Zinc Smelter, Debari, near manisha medical, Udaipur, Rajasthan 313024</p>
                   </div>
-
                 </div>
                 <div className='row'>
                   <div className='col-md-2 col-xl-2 col-lg-2 col-sm-2'>
                     <Image src={Image4} className='img-fluid img-curve' />
-
                   </div>
                   <div className='col-md-10 col-xl-10 col-lg-10 col-sm-10'>
                     <h6>Our Office Address</h6>
                     <p>648, Zinc Smelter, Debari, near manisha medical, Udaipur, Rajasthan 313024</p>
                   </div>
-
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -77,47 +68,34 @@ const ContactUs = () => {
                 <div className='row'>
                   <div className='row'>
                     <div class="mb-3">
-
                       <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Name' />
-
                     </div>
                   </div>
                   <div className='row'>
                     <div class="mb-3">
-
                       <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Phone Number' />
-
                     </div>
                   </div>
                   <div className='row'>
                     <div class="mb-3">
-
                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Email' />
-
                     </div>
                   </div>
                 </div>
-
               </div>
               <div className="col">
                 <div className='row'>
-
                   <div class="mb-3">
-
                     <textarea type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" rows={5} />
-
                   </div>
-
                 </div>
               </div>
-
             </div>
             <div className='row'>
               <div className='text-center'>
                 <a href="#" class="btn btn-primary text-white mt-auto align-self-start button rounded-pill text-center">Enquire Now</a>
               </div>
             </div>
-
           </form>
         </div>
       </div>
