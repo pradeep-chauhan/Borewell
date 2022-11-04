@@ -34,3 +34,6 @@ li{
   list-style-type: none;
 }
 a:link { text-decoration: none; color: black;}
+.gallery-images{
+  grid-gap: 25px 25px;
+}
