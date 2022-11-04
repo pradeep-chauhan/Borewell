@@ -7,7 +7,9 @@ function FooterWebsite() {
     <div>
 
       <div className="container ">
-        <div className="row">
+        
+        <div className="row  pt-5">
+        <hr></hr>
           <div className="col-12 col-md-8 col-sm-12 col-xs-12 mt-3 mb-2 ">
             © {year} BoreWell. All Rights Reserved
           </div>
