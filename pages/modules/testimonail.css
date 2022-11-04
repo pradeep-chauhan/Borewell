@@ -95,37 +95,19 @@
   z-index: 1;
   border-radius: 5px;
 }
-
 .testimonial .slick-prev::before,
 .testimonial .slick-next::before {
   display: none;
 }
-
 .testimonial .slick-arrow.slick-next {
   right: -70px;
 }
-
 .testimonial .slick-arrow.slick-prev {
   left: -70px;
 }
-
 .testimonial .slick-dots li button:before {
   font-size: 15px;
 }
-
 .testimonial .slick-dots li {
   top: 15px;
-}
-
-.tm-people {
-  height: 280px;
-  width: 280px;
-  align-items: center;
-}
-
-.testimonial {
-  display: "flex";
-  align-items: "center";
-  margin-top: 50;
-
 }
