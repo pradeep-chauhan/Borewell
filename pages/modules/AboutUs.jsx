@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import Image1 from '../images/Construction-pana.svg'
+// import Image1 from '../images/Construction-pana.svg'
+import Image1 from '../images/Construction.gif'
+
 const AboutUs = () => {
   return (
     <div>
