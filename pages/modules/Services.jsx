@@ -25,9 +25,9 @@ const Services = () => {
 
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
-                    <a href="https://bit.ly/2LHKl61" class="services-small-item active">
+                    <a href="#" class="services-small-item active">
                        <div class="icon">
-                  <Image className='card-img-top img-fluid img-curve' src={Image1}></Image>
+                  <Image className='card-img-top img-fluid img-curve' src={Image2}></Image>
                         </div>
                         <h5 class="services-title">Lorem Ipsum</h5>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
@@ -35,10 +35,10 @@ const Services = () => {
                         <ArrowRightCircleFill class="bi bi-arrow-right-circle-fill"/>
                         </div>
                     </a>
-                    <div class="item-bg"></div>
+                    
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                    <a href="https://bit.ly/2LHKl61" class="services-small-item">
+                    <a href="#" class="services-small-item">
                         <div class="icon">
                         <Image className='card-img-top img-fluid img-curve' src={Image1}></Image>
                         </div>
@@ -48,10 +48,10 @@ const Services = () => {
                         <ArrowRightCircleFill class="bi bi-arrow-right-circle-fill"/>
                         </div>
                     </a>
-                    <div class="item-bg"></div>
+                    
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                    <a href="https://bit.ly/2LHKl61" class="services-small-item">
+                    <a href="#" class="services-small-item">
                         <div class="icon">
                         <Image className='card-img-top img-fluid img-curve' src={Image1}></Image>
                         </div>
@@ -61,10 +61,10 @@ const Services = () => {
                         <ArrowRightCircleFill class="bi bi-arrow-right-circle-fill"/>
                         </div>
                     </a>
-                    <div class="item-bg"></div>
+                    
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                    <a href="https://bit.ly/2LHKl61" class="services-small-item">
+                    <a href="#" class="services-small-item">
                         <div class="icon">
                         <Image className='card-img-top img-fluid img-curve' src={Image1}></Image>
                         </div>
@@ -74,7 +74,7 @@ const Services = () => {
                             <ArrowRightCircleFill class="bi bi-arrow-right-circle-fill"/>
                         </div>
                     </a>
-                    <div class="item-bg"></div>
+                    
                 </div>
             </div>
         </div>
