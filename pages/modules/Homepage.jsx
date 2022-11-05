@@ -1,15 +1,9 @@
 import React from 'react'
-import { useState } from 'react';
 const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  window.onscroll = () => {
-    setIsScrolled(window.pageYOffset === 0 ? false : true);
-    return () => (window.onscroll = null);
-  };
+ 
   return (
     <section className='home' >
-      <div className='className={isScrolled ? "navbar scrolled" : "navbar"}'>
+      <div>
         <div className='container'>
           <nav class="navbar navbar-expand-lg " id="navbar-2">
             <div class="container-fluid">
