@@ -159,44 +159,90 @@
 
 
 
+// import React from 'react'
+// import Image from 'next/image'
+// import Image1 from '../images/Call center.gif'
+// // import Image1 from '../images/Call-center-cuate.svg'
+// function handleSubmit(e){
+// e.preventDefault()
+//   alert("we will contact you shortly")
+// }
+// const ContactUs = () => {
+//   return (
+//     <section>
+//       <div className='container'>
+//         <div className='row pt-5'>
+//           <div className='col-xl-6 col-md-6 col-lg-6 col-sm-12 col-xs-12'>
+//             <Image src={Image1} className='img-fluid img-curve' />
+//           </div>
+//           <div className='col-xl-6 col-md-6 col-lg-6 col-sm-12 col-xs-12'>
+//             <h2 className='heading text-center service'>Get In Touch</h2>
+//             <p className='paragraph text-center'>We are here for you. How we can help?</p>
+//             <form className="form-info">
+//               <div className="mb-3">
+//                 <label for="exampleInputName" className="form-label" name="name">Name</label>
+//                 <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Name' />
+//               </div>
+//               <div className="mb-3">
+//                 <label for="exampleInputEmail1" className="form-label" name="email" >Email address</label>
+//                 <input type="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Phone Number' />
+//               </div>
+//               <div className="mb-3">
+//                 <label for="exampleInputEmail1" className="form-label" name="email" >Email address</label>
+//                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Email' />
+//               </div>
+//               <div className="mb-3">
+//                 <label for="message" className="form-label" name="message" >Message</label>
+//                 <textarea type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Message'  />
+//               </div>
+//               <button type="submit" onClick={(e) => { handleSubmit(e) }} className="btn btn-primary text-white mt-auto align-self-start button text-center  form-control">Send Message</button>
+//             </form>
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default ContactUs
+
+
 import React from 'react'
-import Image from 'next/image'
-import Image1 from '../images/Call center.gif'
-// import Image1 from '../images/Call-center-cuate.svg'
-function handleSubmit(e){
-e.preventDefault()
-  alert("we will contact you shortly")
-}
+import { Map, Phone, Envelope } from 'react-bootstrap-icons';
+import { Facebook, Instagram, Whatsapp, Twitter } from 'react-bootstrap-icons'
 const ContactUs = () => {
   return (
     <section>
-      <div className='container'>
+      <div className="container">
         <div className='row pt-5'>
-          <div className='col-xl-6 col-md-6 col-lg-6 col-sm-12 col-xs-12'>
-            <Image src={Image1} className='img-fluid img-curve' />
+          <div className='col-lg-6 col-xl-6 col-md-4 col-sm-12 col-xs-12'>
+            <div className='row'>
+              <div className='col-md-1 col-xl-1 col-lg-1 col-sm-1'>
+                <Map className="fa fa-map-marker"></Map>
+              </div>
+              <div className='col-md-11 col-xl-11 col-lg-11 col-sm-11'>
+                <p>648, Zinc Smelter, Debari, near manisha medical, Udaipur, Rajasthan 313024</p>
+              </div>
+            </div>
+            <div className='row'>
+              <div className='col-md-1 col-xl-1 col-lg-1 col-sm-1'>
+                <Phone className="fa fa-phone contactIcon"></Phone>
+              </div>
+              <div className='col-md-11 col-xl-11 col-lg-11 col-sm-11'>
+                <p><a href="tel:+91xxxxxxxxxx" className="">+91-1234567890</a></p>
+              </div>
+            </div>
+            <div className='row'>
+              <div className='col-md-1 col-xl-1 col-lg-1 col-sm-1'>
+                <Envelope> </Envelope>
+              </div>
+              <div className='col-md-11 col-xl-11 col-lg-11 col-sm-11'>
+                <p><a href="mailto:abc.com" className=""> xyz@gmail.com </a></p>
+              </div>
+            </div>
           </div>
-          <div className='col-xl-6 col-md-6 col-lg-6 col-sm-12 col-xs-12'>
-            <h2 className='heading text-center service'>Get In Touch</h2>
-            <p className='paragraph text-center'>We are here for you. How we can help?</p>
-            <form className="form-info">
-              <div className="mb-3">
-                <label for="exampleInputName" className="form-label" name="name">Name</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Name' />
-              </div>
-              <div className="mb-3">
-                <label for="exampleInputEmail1" className="form-label" name="email" >Email address</label>
-                <input type="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Phone Number' />
-              </div>
-              <div className="mb-3">
-                <label for="exampleInputEmail1" className="form-label" name="email" >Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Email' />
-              </div>
-              <div className="mb-3">
-                <label for="message" className="form-label" name="message" >Message</label>
-                <textarea type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Message'  />
-              </div>
-              <button type="submit" onClick={(e) => { handleSubmit(e) }} className="btn btn-primary text-white mt-auto align-self-start button text-center  form-control">Send Message</button>
-            </form>
+          <div className="col-lg-6 col-xl-6 col-md-8 col-sm-12 col-xs-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14510.127844554047!2d73.8154725!3d24.6053439!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e7045afd7ce9%3A0xd7bdb60d6cbac5d8!2sAlvrio%20Labs!5e0!3m2!1sen!2sin!4v1667657045373!5m2!1sen!2sin" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
