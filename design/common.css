@@ -1,7 +1,12 @@
-@font-face {
+/* @font-face {
   font-family: wolf;
   src: url(../font/icomoon.f0b8a3b3.woff2);
+} */
+@font-face {
+  font-family: wolf;
+  src: url(../font/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2);
 }
+
 body{
   font-family: wolf;
 }

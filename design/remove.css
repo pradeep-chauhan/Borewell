@@ -1,0 +1,553 @@
+.testimonial .slick-arrow.slick-prev,
+.testimonial .slick-arrow.slick-next {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border-radius: 5px;
+}
+.testimonial .slick-prev::before,
+.testimonial .slick-next::before {
+  display: none;
+}
+.testimonial .slick-arrow.slick-next {
+  right: -70px;
+}
+.testimonial .slick-arrow.slick-prev {
+  left: -70px;
+}
+.testimonial .slick-dots li button:before {
+  font-size: 15px;
+}
+.testimonial .slick-dots li {
+  top: 15px;
+}
+
+.container-testimonail{
+  width:500px;
+  min-height:315px;
+  margin:0 auto;
+  position:relative;
+  padding-bottom:30px;
+  overflow:hidden;
+}
+
+input[type="radio"] {
+position: absolute;
+width: 1px; /* Setting this to 0 make it invisible for VoiceOver */
+height: 1px; /* Setting this to 0 make it invisible for VoiceOver */
+padding: 0;
+margin: -1px;
+border: 0;
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+label{
+  display:block;
+  width:32%;
+  border: 4px solid gold;
+  position:absolute;
+  bottom:5px;
+  cursor: pointer;
+  transition: border-color 0.3s linear;
+}
+
+label.second{
+  left:34%;
+}
+label.third{
+  left:68%;
+}
+
+blockquote{
+  margin:0;
+  padding:30px;
+  width:500px;
+  background-color: #DB532B;
+  color:white;
+  box-shadow: 0 5px 2px rgba(0,0,0,0.1);
+  position:relative;
+  transition: background-color 0.6s linear;
+}
+
+blockquote:after { 
+  content: " "; 
+  height: 0; 
+  width: 0; 
+  position: absolute; 
+  top: 100%; 
+  border: solid transparent; 
+  border-top-color: #DA532B;
+  border-left-color:#DA532B;
+  border-width: 10px; 
+  left: 10%; 
+} 
+#second:checked ~ .two blockquote {
+  background-color:purple;
+}
+.two blockquote:after{
+  border: solid transparent; 
+  border-top-color: purple;
+  border-left-color:purple;
+  border-width: 10px;
+}
+#third:checked ~ .three blockquote{
+  background-color:#54885F;
+}
+.three blockquote:after{
+  border: solid transparent; 
+  border-top-color: #54885F;
+  border-left-color: #54885F;
+  border-width: 10px;
+}
+.quotes{
+  position:absolute;
+  color:rgba(255,255,255,0.5);
+  font-size:5em;
+}
+.leftq{
+  top:-25px;
+  left:5px;
+}
+.rightq{
+  bottom:-10px;
+  right:5px;
+}
+.img-testimonail{
+  float:left;
+  margin-right: 20px;
+}
+.slide{
+  position:absolute;
+  left:-100%;
+  opacity:0;
+  transition: all 0.6s ease-in;
+}
+
+#first:checked ~ label.first {
+  border-width:6px;
+  border-color:#DB532B;
+}
+#second:checked ~ label.second {
+  border-width:6px; border-color:purple;
+}
+#third:checked ~ label.third {
+  border:6px solid #54885F;
+}
+
+#first:checked ~ div.one {
+  left:0;
+  opacity:1;
+}
+#second:checked ~ div.two {
+  left:0;
+  opacity:1;
+}
+#third:checked ~ div.three {
+  left:0;
+  opacity:1;
+}
+
+
+
+
+
+
+
+
+
+.owl-item{
+  width: 635px;
+}
+
+.owl-carousel .owl-stage-outer {
+  padding-bottom: 60px;
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+.owl-carousel .owl-dots {
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  line-height: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  text-align: center;
+  display: none;}
+
+
+
+  // import React from 'react'
+// import { ArrowLeft, ArrowRight, Person } from 'react-bootstrap-icons';
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+// import Image from 'next/image'
+// import Image1 from '../images/people1.jpeg'
+// import Image2 from '../images/people2.webp'
+// import Image3 from '../images/people3.webp'
+// const data = [
+//     {
+//         id: 1,
+//         name: "Juliet Jarvis",
+//         avatar: Image1,
+//         message:
+//             "We have been using product for last one year, and I have to say that it has transformed the way we do business. Thank you for awesome service.",
+//         lorem:
+//             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non fringilla leo. Phasellus dui erat, ultrices sollicitudin ante quis, convallis varius odio. Quisque sed tristique ante.",
+//     },
+//     {
+//         id: 2,
+//        name: "Michael D.",
+//         avatar: Image2,
+//         message:
+//             "It has changed the way I used the website. Product lets you create anything you envision and it does it so easy and flawless. I can't imagine not working with the service.",
+//         lorem:
+//             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non fringilla leo. Phasellus dui erat, ultrices sollicitudin ante quis, convallis varius odio. Quisque sed tristique ante.",
+//     },
+//     {
+//         id: 3,
+//         name: "Juliet Wright",
+//         avatar: Image3,
+//         message:
+//             "Insights from service drove 30% lift in our conversions, this product service is essential for your company growth strategy.",
+//         lorem:
+//             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non fringilla leo. Phasellus dui erat, ultrices sollicitudin ante quis, convallis varius odio. Quisque sed tristique ante.",
+//         rating: 4.5,
+
+//     },
+// ]
+
+// const PreviousBtn = (props) => {
+//     console.log(props);
+//     const { className, onClick } = props;
+//     return (
+//         <div className={className} onClick={onClick}>
+//             <ArrowLeft style={{ color: "gray", fontSize: "45px" }} />
+//         </div>
+//     );
+// };
+// const NextBtn = (props) => {
+//     const { className, onClick } = props;
+//     return (
+//         <div className={className} onClick={onClick}>
+//             <ArrowRight style={{ color: "gray", fontSize: "45px" }} />
+//         </div>
+//     );
+// };
+// const Testimonial = () => {
+//     return (
+//         <section>
+//             <div className='container'>
+//                 <div className='testimonail pt-5'>
+//                     <h1 className='text-uppercase mb-4 text-center heading' >TESTIMONIALS</h1>
+//                     <div className='row d-flex-center '>
+//                         <div className='text-center d-flex justify-content-center col-12 mb-5'>
+//                             <div className='card ' >
+//                                 <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
+//                                     {
+//                                         data.map((value) => (
+//                                             <>
+//                                                 <Image src={value.avatar} className="tm-people d-flex card-img-top  justify-content-center mx-auto text-center mt-5 mb-5" />
+//                                                 <div class="card-body">
+//                                                     <p class="card-text mx-auto text-center">{value.lorem}</p>
+//                                                     <h5 class="card-title mx-auto text-center">{value.name}</h5>
+//                                                 </div>
+//                                             </>
+//                                         ))
+//                                     }</Slider>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+//             </div>
+//         </section>
+//     )
+// }
+// export default Testimonial;
+
+
+
+
+// import React from 'react'
+// import Image from 'next/image'
+// import Image1 from '../images/people1.jpeg'
+// import Image2 from '../images/people2.webp'
+//  import Image3 from '../images/people3.webp'
+
+// function Testimonial() {
+//   return (
+//     <>
+//       <section className="section-margin testimonial-area section-background-color">
+//         <div className="container ">
+//           <div className="row text-center ">
+//             <h1 className="mb-5 text-center heading mt-5 text-white">Testimonials</h1>
+//             <p className="paragraph mb-4 text-white">Our students give us their verdict on their experience of studying at the Gurukul Pharmacy
+//             </p>
+//           </div>
+//         </div>
+//         <div className="container">
+//           <div className="row course-gap">
+//             <div className="col-md-4 mb-4">
+//               <div className="card t5 testimonial-card">
+//                 <div className="d-flex justify-content-center">
+//                   <Image src={Image1} className="tm-people " />
+//                 </div>
+//                 <div className="card-body">
+//                   <h5 className="card-title d-flex justify-content-center">David Jones</h5>
+//                   <p className="card-text d-flex justify-content-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, sapiente doloremque quas fugiat aut vero nobis nihil! Labore laboriosam eligendi assumenda aperiam numquam maiores culpa similique ullam illum laborum..</p>
+//                 </div>
+//               </div>
+//             </div>
+//             <div className="col-md-4 mb-4">
+//               <div className="card t5 testimonial-card">
+//                 <div className="d-flex justify-content-center">
+//                   <Image src={Image2} className="tm-people " />
+//                 </div>
+//                 <div className="card-body">
+//                   <h5 className="card-title d-flex justify-content-center">David Jones</h5>
+//                   <p className="card-text d-flex justify-content-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, sapiente doloremque quas fugiat aut vero nobis nihil! Labore laboriosam eligendi assumenda aperiam numquam maiores culpa similique ullam illum laborum..</p>
+//                 </div>
+//               </div>
+//             </div>
+//             <div className="col-md-4 mb-5">
+//               <div className="card t5 testimonial-card">
+//                 <div className="d-flex justify-content-center">
+//                   <Image src={Image3} className="tm-people " />
+//                 </div>
+//                 <div className="card-body">
+//                   <h5 className="card-title d-flex justify-content-center">David Jones</h5>
+//                   <p className="card-text d-flex justify-content-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, sapiente doloremque quas fugiat aut vero nobis nihil! Labore laboriosam eligendi assumenda aperiam numquam maiores culpa similique ullam illum laborum..</p>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </section>
+//     </>
+//   )
+// }
+// export default Testimonial
+
+
+
+// import React from 'react'
+// import Image from 'next/image'
+// import Image1 from '../images/people1.jpeg'
+// import Image2 from '../images/people2.webp'
+// import Image3 from '../images/people3.webp'
+// const Testimonial = () => {
+//   return (
+//     <div>
+//       <div className='conatiner'>
+
+//             <h1>You Can See Our Clients Feedback</h1> <h1>What You Say?</h1>
+
+//             <div class="container container-testimonail">
+//               <input type="radio" name="nav" id="first" checked />
+//               <input type="radio" name="nav" id="second" />
+//               <input type="radio" name="nav" id="third" />
+
+//               <label for="first" class="first"></label>
+//               <label for="second" class="second"></label>
+//               <label for="third" class="third"></label>
+
+//               <div class="one slide">
+//                 <blockquote>
+//                   <span class="leftq quotes">&ldquo;</span> He promptly completed the task at hand and communicates really well till the project reaches the finishing line. I was pleased with his creative design and will definitely be hiring him again. <span class="rightq quotes">&bdquo; </span>
+//                 </blockquote>
+//                 {/* <Image src={Image3} className="img-testimonail" /> */}
+//                 <h2>Steve Kruger</h2>
+//                 <h6>UI/UX Designer at Woof Design Studio</h6>
+//               </div>
+
+//               <div class="two slide">
+//                 <blockquote>
+//                   <span class="leftq quotes">&ldquo;</span> He promptly completed the task at hand and communicates really well till the project reaches the finishing line. I recommend him to anyone who wants their work done professionally. The project ... <a href="#"> read more</a><span class="rightq quotes">&bdquo; </span>
+//                 </blockquote>
+//                 {/* <Image src={Image2} className="img-testimonail" /> */}
+//                 <h2>John Doe</h2>
+//                 <h6>Developer Relations at Woof Studios</h6>
+//               </div>
+
+//               <div class="three slide">
+//                 <blockquote>
+//                   <span class="quotes leftq"> &ldquo;</span> He promptly completed the task at hand and communicates really well till the project reaches the finishing line. I was pleased with his creative design and will definitely be hiring him again. <span class="rightq quotes">&bdquo; </span>
+//                 </blockquote>
+//                 {/* <Image src={Image1} className="img-testimonail" /> */}
+//                 <h2>Steve Stevenson</h2>
+//                 <h6>CEO Woof Web Design Studios</h6>
+
+
+//           </div>
+//         </div>
+//       </div>
+
+//     </div>
+//   )
+// }
+
+// export default Testimonial
+
+
+
+
+
+
+// import React from 'react'
+
+// const Testimonial = () => {
+//   return (
+//     <div>
+//       <section>
+//   <div class="container">
+//     <div class="row align-items-center">
+//       <div class="col-lg-5 col-md-12">
+//         <div class="section-title mb-0">
+//           <h6>Testimonial</h6>
+//           <h2 class="title">You Can See our clients feedback What You Say?</h2>
+//           <p class="mb-0">He started this establishment in the year 1991 in Bangalore, India.</p>
+//         </div>
+//       </div>
+//       <div class="col-lg-7 col-md-12 md-mt-5">
+//         <div class="owl-carousel owl-theme owl-loaded owl-drag" data-items="1">
+
+
+
+
+//         <div class="owl-stage-outer"><div class="owl-stage" ><div class="owl-item cloned" ><div class="item">
+//             <div class="testimonial">
+//               <div class="testimonial-img">
+
+//               </div>
+//               <div class="testimonial-content">
+//                 <p>Professional recommended and great experience, Nam pulvinar vitae neque et porttitor, Praesent sed nisi eleifend, Consectetur adipisicing elit, sed do eiusmodas temporo incididunt</p>
+//                 <div class="testimonial-caption">
+//                   <h5>Mr. Ravi</h5>
+
+//                 </div>
+//               </div>
+//               <div class="testimonial-quote"><i class="flaticon-quotation"></i>
+//               </div>
+//             </div>
+//           </div></div><div class="owl-item cloned" ><div class="item">
+//             <div class="testimonial">
+//               <div class="testimonial-img">
+
+//               </div>
+//               <div class="testimonial-content">
+//                 <p>Cost involved in the project was clearly explained. It was reasonable enough. Installation was followed with accurate scientific method.</p>
+//                 <div class="testimonial-caption">
+//                   <h5>Mr. Karthik</h5>
+//                   <label>CEO of kannan</label>
+//                 </div>
+//               </div>
+//               <div class="testimonial-quote"><i class="flaticon-quotation"></i>
+//               </div>
+//             </div>
+//           </div></div><div class="owl-item" ><div class="item">
+//             <div class="testimonial">
+//               <div class="testimonial-img">
+
+//               </div>
+//               <div class="testimonial-content">
+//                 <p>It's my pleasure gaining best information about process followed at installation. Kannan has expert Ground Water Surveyors to predict with accuracy.</p>
+//                 <div class="testimonial-caption">
+//                   <h5>Mr. Karthik</h5>
+
+//                 </div>
+//               </div>
+//               <div class="testimonial-quote"><i class="flaticon-quotation"></i>
+//               </div>
+//             </div>
+//           </div></div><div class="owl-item" ><div class="item">
+//             <div class="testimonial">
+//               <div class="testimonial-img">
+
+//               </div>
+//               <div class="testimonial-content">
+//                 <p>There was no hindrance at work. Team worked sincerely with less supervision. They proved their skills.</p>
+//                 <div class="testimonial-caption">
+//                   <h5>Mr. Praveen</h5>
+
+//                 </div>
+//               </div>
+//               <div class="testimonial-quote"><i class="flaticon-quotation"></i>
+//               </div>
+//             </div>
+//           </div></div><div class="owl-item" ><div class="item">
+//             <div class="testimonial">
+//               <div class="testimonial-img">
+
+//               </div>
+//               <div class="testimonial-content">
+//                 <p>Professional recommended and great experience, Nam pulvinar vitae neque et porttitor, Praesent sed nisi eleifend, Consectetur adipisicing elit, sed do eiusmodas temporo incididunt</p>
+//                 <div class="testimonial-caption">
+//                   <h5>Mr. Ravi</h5>
+
+//                 </div>
+//               </div>
+//               <div class="testimonial-quote"><i class="flaticon-quotation"></i>
+//               </div>
+//             </div>
+//           </div></div><div class="owl-item active" ><div class="item">
+//             <div class="testimonial">
+//               <div class="testimonial-img">
+
+//               </div>
+//               <div class="testimonial-content">
+//                 <p>Cost involved in the project was clearly explained. It was reasonable enough. Installation was followed with accurate scientific method.</p>
+//                 <div class="testimonial-caption">
+//                   <h5>Mr. Karthik</h5>
+//                   <label>CEO of kannan</label>
+//                 </div>
+//               </div>
+//               <div class="testimonial-quote"><i class="flaticon-quotation"></i>
+//               </div>
+//             </div>
+//           </div></div><div class="owl-item cloned" ><div class="item">
+//             <div class="testimonial">
+//               <div class="testimonial-img">
+
+//               </div>
+//               <div class="testimonial-content">
+//                 <p>It's my pleasure gaining best information about process followed at installation. Kannan has expert Ground Water Surveyors to predict with accuracy.</p>
+//                 <div class="testimonial-caption">
+//                   <h5>Mr. Karthik</h5>
+
+//                 </div>
+//               </div>
+//               <div class="testimonial-quote"><i class="flaticon-quotation"></i>
+//               </div>
+//             </div>
+//           </div></div><div class="owl-item cloned" ><div class="item">
+//             <div class="testimonial">
+//               <div class="testimonial-img">
+
+//               </div>
+//               <div class="testimonial-content">
+//                 <p>There was no hindrance at work. Team worked sincerely with less supervision. They proved their skills.</p>
+//                 <div class="testimonial-caption">
+//                   <h5>Mr. Praveen</h5>
+
+//                 </div>
+//               </div>
+//               <div class="testimonial-quote"><i class="flaticon-quotation"></i>
+//               </div>
+//             </div>
+//           </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span class="fas fa-long-arrow-alt-left"><span></span></span></button><button type="button" role="presentation" class="owl-next"><span class="fas fa-long-arrow-alt-right"></span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div>
+//       </div>
+//     </div>
+//   </div>
+// </section>
+//     </div>
+//   )
+// }
+
+// export default Testimonial
