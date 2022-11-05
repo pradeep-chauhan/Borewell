@@ -1,21 +1,37 @@
 .navbar {
   color: transparent !important;
 }
+
 .button {
   background-color: #E6B536;
   color: #fff;
   border-color: #E6B536;
   outline-color: transparent;
   transition: 0.3s;
-   padding-left:20px;
-  padding-right:20px;
-  padding-top:5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
   padding-bottom: 10px;
 }
-.home{
+
+.home {
   background: url('../pages/images/homepage.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 100vh;
+}
+
+.home-1 {
+  background: url('../pages/images/homepage2.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.card-homepage {
+  position: absolute;
+  bottom: 40%;
 }
