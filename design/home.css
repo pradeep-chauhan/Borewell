@@ -38,3 +38,13 @@
   position: absolute;
   bottom: 40%;
 }
+
+.navbar {
+  
+
+  /* background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.3) 50%); */
+}
+
+.scrolled {
+  background-color: #0b0b0b !important;
+}
