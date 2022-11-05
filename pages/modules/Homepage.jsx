@@ -2,7 +2,8 @@ import React from 'react'
 const Navbar = () => {
  
   return (
-    <section className='home' >
+
+<section className='home' >
       <div>
         <div className='container'>
           <nav class="navbar navbar-expand-lg " id="navbar-2">
@@ -50,8 +51,8 @@ const Navbar = () => {
           <div className="container">
             <div className="row mt-5 pt-5">
               <div className="col-8 mt-5">
-                <h1 className='display-5'>Trusted and reliable</h1>
-                <h2 className='display-4'>Borewell Contractors</h2>
+                <h1 className='display-4'>BOREWELLS DRILLING EQUIPMENTS &</h1>
+                <h1 className='display-4'> CONTRACTOR</h1>
               </div>
               <div className='container  mt-3 '>
                 <div class="btn  button rounded-pill ">Enquire Now</div>
