@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='container'>
         <div className='row pt-5'>
           <div className="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12">
-            <h4 className="mb-4 ">Borewell Company</h4>
+            <h4 className="mb-4 ">Mahalaxmi Borewell</h4>
             <p className="footer-para d-flex justify-content-start text-justify e">We have successfully Drilled and Solved problem for many areas in Udaipur
             </p>
             <ul className="list-inline mb-0 mt-3 mb-5">

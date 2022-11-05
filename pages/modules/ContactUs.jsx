@@ -108,6 +108,57 @@
 
 
 
+// import React from 'react'
+// import Image from 'next/image'
+// import Image1 from '../images/Call center.gif'
+// // import Image1 from '../images/Call-center-cuate.svg'
+// function handleSubmit(e){
+// e.preventDefault()
+//   alert("we will contact you shortly")
+// }
+// const ContactUs = () => {
+//   return (
+//     <section>
+//       <div className='container'>
+//         <div className='row pt-5'>
+//           <div className='col-xl-6 col-md-6 col-lg-6 col-sm-12 col-xs-12'>
+//             <Image src={Image1} className='img-fluid img-curve' />
+//           </div>
+//           <div className='col-xl-6 col-md-6 col-lg-6 col-sm-12 col-xs-12'>
+//             <h2 className='heading text-center'>Get In Touch</h2>
+//             <p className='paragraph text-center'>We are here for you. How we can help?</p>
+//             <form className="form-info">
+//               <div className="mb-3">
+//                 <label for="exampleInputName" className="form-label" name="name">Name</label>
+//                 <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Name' />
+//               </div>
+//               <div className="mb-3">
+//                 <label for="exampleInputEmail1" className="form-label" name="email" >Email address</label>
+//                 <input type="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Phone Number' />
+//               </div>
+//               <div className="mb-3">
+//                 <label for="exampleInputEmail1" className="form-label" name="email" >Email address</label>
+//                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Email' />
+//               </div>
+//               <div className="mb-3">
+//                 <label for="message" className="form-label" name="message" >Message</label>
+//                 <textarea type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Your Message'  />
+//               </div>
+//               <button type="submit" onClick={(e) => { handleSubmit(e) }} className="btn btn-primary text-white mt-auto align-self-start button text-center  form-control">Send Message</button>
+//             </form>
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default ContactUs
+
+
+
+
+
 import React from 'react'
 import Image from 'next/image'
 import Image1 from '../images/Call center.gif'
