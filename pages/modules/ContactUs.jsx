@@ -176,7 +176,7 @@ const ContactUs = () => {
             <Image src={Image1} className='img-fluid img-curve' />
           </div>
           <div className='col-xl-6 col-md-6 col-lg-6 col-sm-12 col-xs-12'>
-            <h2 className='heading text-center'>Get In Touch</h2>
+            <h2 className='heading text-center service'>Get In Touch</h2>
             <p className='paragraph text-center'>We are here for you. How we can help?</p>
             <form className="form-info">
               <div className="mb-3">
