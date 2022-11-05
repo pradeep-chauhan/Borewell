@@ -21,6 +21,7 @@ export default function Home() {
         <meta property="og:description" content="Borewells - The borewell is now perhaps the most common source of water in urban India. These are wells dug deep into the ground to tap into water-bearing soil or rock layers termed aquifers. Borewells typically draw water from “confined deep aquifers”, i.e., rock layers deep underground, where water is trapped under pressure between the cracks of rocks. These aquifers are formed over many years, sometimes even centuries, due to water percolating down the rock layers." key="desc" />
         <meta property='og:keywords' content="Borewell,Tubewell,Best Borewell in Udaipur , Best Borewell in Rajasthan,Udaipur best borewell , Udaipur best borewell site , Udaipur best borewell machine , Udaipur best borewell company " key="keywords" />
       </Head>
+      
       <Navbar />
       <Services />
       <AboutUs />

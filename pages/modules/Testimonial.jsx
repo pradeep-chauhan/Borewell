@@ -26,7 +26,7 @@ const Testimonial = () => {
       <div className='container'>
         <div className='row pt-5'>
           <div className='col'>
-            <h1 className='heading text-center'>Testimonail</h1>
+            <h1 className='heading text-center service'>Testimonail</h1>
             <p className='paragraph text-center mb-5'>You Can See our clients feedback </p>
            
           </div>

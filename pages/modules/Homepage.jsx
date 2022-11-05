@@ -6,6 +6,7 @@ const Navbar = () => {
       <div>
         <div className='container'>
           <nav class="navbar navbar-expand-lg " id="navbar-2">
+            
             <div class="container-fluid">
               <a class="navbar-brand" id="logo" href="#">Mahalaxmi Borewell</a>
               <button
