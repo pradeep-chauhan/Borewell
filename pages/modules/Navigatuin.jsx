@@ -31,11 +31,7 @@ export default function Navigation() {
 
   return (
     <nav
-<<<<<<< Updated upstream
       class="navbar navbar-expand-lg navbar-light fixed-top "
-=======
-      class="navbar navbar-expand-lg  fixed-top"
->>>>>>> Stashed changes
       style={{
         background: `rgba(255, 255, 255, ${backgroundTransparacy})`,
         padding: `${padding}px 0px`,

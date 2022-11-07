@@ -6,11 +6,7 @@ const Navbar = () => {
 <section className='home' >
       <div>
         <div className='container'>
-<<<<<<< Updated upstream
-          <nav class="navbar navbar-expand-lg animate__animated  animate__bounceInUp " id="navbar-2">
-=======
           {/* <nav class="navbar navbar-expand-lg " id="navbar-2">
->>>>>>> Stashed changes
             
             <div class="container-fluid positio">
               <a class="navbar-brand" id="logo" href="#">Mahalaxmi Borewell</a>
