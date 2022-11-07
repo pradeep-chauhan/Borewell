@@ -92,7 +92,12 @@ import Image3 from '../images/services3.webp'
 import Image4 from '../images/services4.webp'
 import Image5 from '../images/service2.jpeg'
 import Image6 from '../images/services4.webp'
+<<<<<<< HEAD
 import { ArrowBarLeft, ArrowDown, ArrowLeftRight, ArrowRight, Circle, CloudUploadFill, ConeStriped, CupFill, Lamp, LampFill, Person } from 'react-bootstrap-icons'
+=======
+import { ArrowBarLeft, ArrowDown, ArrowLeftRight, ArrowRight, Circle, CloudUploadFill, ConeStriped, CupFill, Ladder, Lamp, LampFill, Person } from 'react-bootstrap-icons'
+
+>>>>>>> c35c033 (gallary and service section updated)
 const Services = () => {
   return (
     <div class="container-xxl py-5">
@@ -102,7 +107,7 @@ const Services = () => {
                 <h1 class="mb-4">We Are Pioneers For Getting Water</h1>
             </div>
             <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded overflow-hidden">
                  <Image className='img-fluid service-img' src={Image1}/>
                         <div class="position-relative p-4 pt-0">
@@ -111,11 +116,11 @@ const Services = () => {
                             </div>
                             <h4 class="mb-3 fw-bold">Tube Well Drilling</h4>
                             <p>We take pride to introduce ourselves as the best service provider in the field of tube well drilling.</p>
-                            <a class="small fw-medium" href="">Read More <ArrowRight></ArrowRight></a>
+                            <a class="small fw-medium" href="">Contact Us <ArrowRight></ArrowRight></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded overflow-hidden">
                     <Image className='img-fluid service-img' src={Image5}/>
                         <div class="position-relative p-4 pt-0">
@@ -124,11 +129,11 @@ const Services = () => {
                             </div>
                             <h4 class="mb-3 fw-bold">Ground Water Investigation</h4>
                             <p>The services for groundwater survey are conducted through integrated investigation potential zones.</p>
-                            <a class="small fw-medium" href="">Read More <ArrowRight></ArrowRight></a>
+                            <a class="small fw-medium" href="">Contact Us <ArrowRight></ArrowRight></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded overflow-hidden">
                     <Image className='img-fluid service-img' src={Image3}/>
                         <div class="position-relative p-4 pt-0">
@@ -137,13 +142,27 @@ const Services = () => {
                             </div>
                             <h4 class="mb-3 fw-bold">Rain Water Harvesting</h4>
                             <p>Our expertise offers rainwater harvesting systems that comprise collection &amp; storage of the rainwater.</p>
-                            <a class="small fw-medium" href="">Read More <ArrowRight></ArrowRight></a>
+                            <a class="small fw-medium" href="">Contact Us <ArrowRight></ArrowRight></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded overflow-hidden">
+                    <Image className='img-fluid service-img' src={Image4}/>
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                            <Ladder class="bi bi-play-circle-fill iconss"/>
+                            </div>
+                            <h4 class="mb-3 fw-bold">Rain Water Harvesting</h4>
+                            <p>Our expertise offers rainwater harvesting systems that comprise collection &amp; storage of the rainwater.</p>
+                            <a class="small fw-medium" href="">Contact Us <ArrowRight></ArrowRight></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    
   )
 }
 export default Services

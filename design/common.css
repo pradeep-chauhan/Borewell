@@ -34,7 +34,151 @@ ul {
 li{
   list-style-type: none;
 }
+<<<<<<< HEAD
 a:link { text-decoration: none; color: black;}
 .gallery-images{
   grid-gap: 25px 25px;
 }
+=======
+
+
+/*** Project ***/
+.project-item {
+  position: relative;
+}
+
+.project-item .project-title {
+  position: absolute;
+  top: auto;
+  right: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+  padding: 1rem;
+  text-align: center;
+  background: #FFFFFF;
+  transition: .5s;
+}
+
+.project-item:hover .project-title {
+  color: #FFFFFF;
+  background: var(--primary);
+}
+
+
+
+.gallary{
+  color: green;
+  font-size: 24px;
+}
+
+.about .image {
+  padding: 20px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.about .content ul i {
+  font-size: 24px;
+  padding: 2px 6px 0 0;
+  color: #7cc576;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+-------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: whitesmoke;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding-bottom: 0;
+  color: green;
+}
+
+.section-title p {
+  margin-bottom: 0;
+  color: #aeaeae;
+}
+.icon { color: #7cc576;}
+
+
+/********** Template CSS **********/
+:root {
+  --primary: #EAA636;
+
+  --light: #FDF5EB;
+  --dark: #1E1916;
+}
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 30px;
+  bottom: 60px;
+  z-index: 99;
+}
+
+
+.border {
+  background-color: #FDF5EB !important;
+}
+
+
+
+
+
+
+
+/*** About ***/
+.img-twice::before {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 80%;
+  top: 10%;
+  left: 20%;
+  border: 1rem solid var(--light);
+  z-index: -1;
+}
+
+.abouts{
+  color:#EAA636 ;
+  font-size: 17px;
+}
+
+.iconcolor {
+  color:#EAA636 ;
+  font-size: 25px;
+}
+>>>>>>> c35c033 (gallary and service section updated)
