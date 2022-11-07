@@ -34,15 +34,11 @@ ul {
 li{
   list-style-type: none;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 a:link { text-decoration: none; color: black;}
 .gallery-images{
   grid-gap: 25px 25px;
 }
-=======
-=======
->>>>>>> c35c033 (gallary and service section updated)
 
 
 /*** Project ***/
@@ -157,12 +153,6 @@ section {
   background-color: #FDF5EB !important;
 }
 
-
-
-
-
-
-
 /*** About ***/
 .img-twice::before {
   position: absolute;
@@ -184,7 +174,17 @@ section {
   color:#EAA636 ;
   font-size: 25px;
 }
-<<<<<<< HEAD
->>>>>>> c35c033 (gallary and service section updated)
-=======
->>>>>>> c35c033 (gallary and service section updated)
+
+.animate__animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-duration: var(--animate-duration);
+  animation-duration: var(--animate-duration);
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animate__bounceInUp {
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+}
+
