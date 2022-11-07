@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.css';
 
-
+import '../design/homepage.css'
 import '../design/aboutus.css'
 import '../design/service.css'
 import '../design/common.css'

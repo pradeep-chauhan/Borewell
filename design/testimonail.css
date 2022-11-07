@@ -250,3 +250,13 @@
     border-radius: 50%;
   }
 }
+
+
+
+.navbar{
+  background-color: transparent;
+}
+
+.navbar.colorChange{
+  background-color: #000;
+}

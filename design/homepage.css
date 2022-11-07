@@ -1,0 +1,27 @@
+.button {
+  background-color: #8d3f26;
+  border-color: #8d3f26;
+  transition: 0.3s;
+}
+.move-text{
+  position: absolute;
+  bottom: 40%;
+}
+.homepage-image-1{
+  background: url('../pages/images/homepage.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.homepage-image-2{
+  background: url('../pages/images/homepage3.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.card-move {
+  position: absolute;
+  left: 3%;
+}
