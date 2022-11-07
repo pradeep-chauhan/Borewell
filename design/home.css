@@ -1,4 +1,4 @@
-.navbar {
+ .navbar {
   color: transparent !important;
 }
 .button {
@@ -9,6 +9,7 @@
   transition: 0.3s;
    padding-left:20px;
   padding-right:20px;
+  
 }
 .home{
   background: url('../pages/images/homepage3.webp');
@@ -18,12 +19,33 @@
   height: 100vh;
 }
 .positio{
+  width: 100%;
+  color: white;
+  font-size: 14px;
   position: fixed;
+  top: 0;
+  z-index: 999;
+}
+.scrolled {
+  background-color: #0B0B0B !important;
 }
 
 
-/* style={{
-  background: `rgba(255, 255, 255, ${backgroundTransparacy})`,
-  padding: `${padding}px 0px`,
-  boxShadow: `rgb(0 0 0 / ${boxShadow}) 0px 0px 20px 6px`,
-}} */
+.naav{--bs-scroll-height: 100px;} 
+
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
