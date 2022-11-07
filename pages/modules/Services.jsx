@@ -93,8 +93,11 @@ import Image4 from '../images/services4.webp'
 import Image5 from '../images/service2.jpeg'
 import Image6 from '../images/services4.webp'
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { ArrowBarLeft, ArrowDown, ArrowLeftRight, ArrowRight, Circle, CloudUploadFill, ConeStriped, CupFill, Lamp, LampFill, Person } from 'react-bootstrap-icons'
 =======
+=======
+>>>>>>> c35c033 (gallary and service section updated)
 import { ArrowBarLeft, ArrowDown, ArrowLeftRight, ArrowRight, Circle, CloudUploadFill, ConeStriped, CupFill, Ladder, Lamp, LampFill, Person } from 'react-bootstrap-icons'
 
 >>>>>>> c35c033 (gallary and service section updated)

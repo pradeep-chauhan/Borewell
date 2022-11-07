@@ -35,11 +35,14 @@ li{
   list-style-type: none;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 a:link { text-decoration: none; color: black;}
 .gallery-images{
   grid-gap: 25px 25px;
 }
 =======
+=======
+>>>>>>> c35c033 (gallary and service section updated)
 
 
 /*** Project ***/
@@ -181,4 +184,7 @@ section {
   color:#EAA636 ;
   font-size: 25px;
 }
+<<<<<<< HEAD
+>>>>>>> c35c033 (gallary and service section updated)
+=======
 >>>>>>> c35c033 (gallary and service section updated)
