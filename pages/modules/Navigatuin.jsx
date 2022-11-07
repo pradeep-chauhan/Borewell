@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 
 export default function Navigation() {
-  const [clientWindowHeight, setClientWindowHeight] = useState("");
 
-  const [backgroundTransparacy, setBackgroundTransparacy] = useState(0);
+  const [clientWindowHeight, setClientWindowHeight] = useState();
+
+  const [backgroundTransparacy, setBackgroundTransparacy] = useState();
   const [padding, setPadding] = useState();
   const [boxShadow, setBoxShadow] = useState(0);
 
@@ -20,7 +21,7 @@ export default function Navigation() {
     let backgroundTransparacyVar = clientWindowHeight / 600;
 
     if (backgroundTransparacyVar < 1) {
-      let paddingVar = 30 - backgroundTransparacyVar * 20;
+      let paddingVar = 10 - backgroundTransparacyVar * 20;
       let boxShadowVar = backgroundTransparacyVar * 0.1;
       setBackgroundTransparacy(backgroundTransparacyVar);
       setPadding(paddingVar);
@@ -30,7 +31,11 @@ export default function Navigation() {
 
   return (
     <nav
+<<<<<<< Updated upstream
       class="navbar navbar-expand-lg navbar-light fixed-top "
+=======
+      class="navbar navbar-expand-lg  fixed-top"
+>>>>>>> Stashed changes
       style={{
         background: `rgba(255, 255, 255, ${backgroundTransparacy})`,
         padding: `${padding}px 0px`,
