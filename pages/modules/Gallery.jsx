@@ -1,13 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
-import Image1 from '../images/Temp-400x500 (1).jpg'
-import Image2 from '../images/Temp-400x300 (1).jpg'
-import Image3 from '../images/Temp-400x300 (4).jpg'
-import Image4 from '../images/Temp-400x500 (2).jpg'
-import Image5 from '../images/Temp-400x300 (3).jpg'
-import Image6 from '../images/Temp-400x500 (3).jpg'
-import Image9 from '../images/Temp-400x300.jpg'
-import Image10 from '../images/Temp-400x500.jpg'
+import Image1 from '../images/Temp-400x500 (1).png'
+import Image2 from '../images/Temp-400x300 (1).png'
+import Image3 from '../images/Temp-400x300 (4).png'
+import Image4 from '../images/Temp-400x500 (2).png'
+import Image5 from '../images/Temp-400x300 (3).png'
+import Image6 from '../images/Temp-400x500 (3).png'
+import Image9 from '../images/Temp-400x300.png'
+import Image10 from '../images/Temp-400x500.png'
 const Gallery = () => {
   return (
     <div class="container-xxl py-5">
