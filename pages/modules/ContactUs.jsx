@@ -1,5 +1,10 @@
 import React from 'react'
 import { Clock, Envelope, Geo, Phone } from 'react-bootstrap-icons'
+import Image from 'next/image'
+import Image1 from '../images/placeholder (1).png'
+import Image2 from '../images/phone-call (1).png'
+import Image3 from '../images/email.png'
+import Image4 from '../images/clock.png'
 
 const ContactUs = () => {
   return (
@@ -12,7 +17,7 @@ const ContactUs = () => {
 
             <div className='row mt-3'>
               <div className='col-md-1 col-xl-1 col-lg-1 col-sm-1'>
-                <Geo className="fa fa-map-marker"></Geo>
+              <Image src={Image1} />
               </div>
               <div className='col-md-10 col-xl-10 col-lg-10 col-sm-11'>
                 <p>648, Zinc Smelter, Debari, near manisha medical, Udaipur, Rajasthan 313024</p>
@@ -20,7 +25,7 @@ const ContactUs = () => {
             </div>
             <div className='row'>
               <div className='col-md-1 col-xl-1 col-lg-1 col-sm-1'>
-                <Phone className="fa fa-phone contactIcon"></Phone>
+              <Image src={Image2} />
               </div>
               <div className='col-md-11 col-xl-11 col-lg-11 col-sm-11'>
                 <p><a href="tel:+919928845025" className="">+91-9928845025</a></p>
@@ -28,7 +33,7 @@ const ContactUs = () => {
             </div>
             <div className='row'>
               <div className='col-md-1 col-xl-1 col-lg-1 col-sm-1'>
-                <Phone className="fa fa-phone contactIcon"></Phone>
+              <Image src={Image2} />
               </div>
               <div className='col-md-11 col-xl-11 col-lg-11 col-sm-11'>
                 <p><a href="tel:+919928845025" className="">+91-9928845025</a></p>
@@ -36,7 +41,7 @@ const ContactUs = () => {
             </div>
             <div className='row'>
               <div className='col-md-1 col-xl-1 col-lg-1 col-sm-1'>
-                <Envelope className="fa"> </Envelope>
+              <Image src={Image3} />
               </div>
               <div className='col-md-11 col-xl-11 col-lg-11 col-sm-11'>
                 <p><a href="mailto:abc.com" className=""> xyz@gmail.com </a></p>
@@ -44,7 +49,7 @@ const ContactUs = () => {
             </div>
             <div className='row mb-5'>
               <div className='col-md-1 col-xl-1 col-lg-1 col-sm-1'>
-                <Clock className="fa"/>
+              <Image src={Image4} />
               </div>
               <div className='col-md-11 col-xl-11 col-lg-11 col-sm-11'>
                 <p>Mon-Sat: 10AM - 6PM</p>
