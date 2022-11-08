@@ -1,9 +1,7 @@
-
-
-
 import React from 'react'
 import { Whatsapp } from 'react-bootstrap-icons'
-
+import Image from 'next/image'
+import Image1 from '../images/whatsapp.png'
 const Homepage = () => {
   return (
     <section class="home">
@@ -52,7 +50,7 @@ const Homepage = () => {
       </div>
       <div class="icon-bar">
         <a href="https://api.whatsapp.com/send?phone=919928845025" class="floating whatsapp" target="_blank">
-          <Whatsapp className='class="fa fa-whatsapp my-float"'></Whatsapp>
+          <Image src={Image1} />
         </a>
       </div>
     </section>
