@@ -11,7 +11,7 @@ function FooterWebsite() {
             © {year} Mahalaxmi Borewell. All Rights Reserved
           </div>
           <div className="col-12 col-md-4 col-sm-12 col-xs-12 mt-3 mb-2  text-end">
-            <p>Design and Developed By <strong> <a href="https://alvrio.io/">Alvrio Labs</a></strong></p>
+            <p>Design and Developed By <strong> <a className='text-black' href="https://alvrio.io/">Alvrio Labs</a></strong></p>
           </div>
         </div>
       </div>
