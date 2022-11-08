@@ -57,13 +57,8 @@ const Services = () => {
                             <div class="service-icon">
                             <Ladder class="bi bi-play-circle-fill iconss"/>
                             </div>
-<<<<<<< HEAD
-                            <h4 class="card-heading mb-3 fw-bold">Rain Water</h4>
-                            <p className='card-paragraph'>Our expertise offers rainwater harvesting systems that comprise collection  storage of the rainwater.</p>
-=======
                             <h4 class="card-heading mb-3 fw-bold">Earth Drilling</h4>
                             <p className='card-paragraph'>Our expertise offers earth drilling systems and collection of soil rock core samples</p>
->>>>>>> fixing
                         </div>
                     </div>
                 </div>

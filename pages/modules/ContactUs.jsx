@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import Image1 from '../images/placeholder (2).png'
-import Image2 from '../images/phone (1).png'
-import Image3 from '../images/email (2).png'
-import Image4 from '../images/alarm-clock (2).png'
+import Image1 from '../images/placeholder.png'
+import Image2 from '../images/phone.png'
+import Image3 from '../images/email.png'
+import Image4 from '../images/time.png'
 
 const ContactUs = () => {
   return (
