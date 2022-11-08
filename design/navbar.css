@@ -2,3 +2,11 @@
   background-color: var(--button) !important;
   color: white !important;
 }
+
+.scrolled {
+  background-color: #0b0b0b !important;
+}
+
+.navbar-main{
+  background-color: gold !important;
+}
