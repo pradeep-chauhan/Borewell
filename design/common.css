@@ -9,10 +9,10 @@
   --buttonText: #0d0d0d;
   --subheading: #EAA636;
   --subparagraph: #2a2a2a;
+  --background: #eff0f3;
 }
 body {
   font-family: wolf;
-  background-color: #eff0f3;
 }
 .paragraph {
   text-align: justify;
@@ -154,4 +154,7 @@ a:link {
 
 .contactUs{
   font-size: 18px;
+}
+.bg-color{
+  background-color: var(--background);
 }

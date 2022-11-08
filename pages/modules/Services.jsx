@@ -7,7 +7,7 @@ import Image5 from '../images/service2.jpeg'
 import { ArrowRight, CloudUploadFill, ConeStriped, Ladder, LampFill } from 'react-bootstrap-icons'
 const Services = () => {
   return (
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5 ">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="text-heading">Our Services</h6>
