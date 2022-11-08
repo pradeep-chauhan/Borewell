@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 4070e3f (testimonial updated)
 import React from 'react'
 
 const Homepage = () => {
