@@ -11,11 +11,10 @@ import { Messenger } from "react-bootstrap-icons";
 export default class Testimonials extends Component {
   render() {
     return (
-      <>
-        <section class="h-100" >
-          <div class="container-fluid bg-light py-5 my-5" id="testimonial">
+        <section class="container-xxl" >
+          <div class="container-fluid bg-light " id="testimonial">
             <div class="container-fluid py-5">
-              <h1 className='heading text-center service mt-5'>Testimonial</h1>
+              <h1 className='text-center service text-heading'>Testimonial</h1>
               <p className='paragraph text-center mb-5'>You Can See our clients feedback </p>
               <div class="row justify-content-center">
                 <div class="col-lg-3 d-none d-lg-block">
@@ -94,7 +93,6 @@ export default class Testimonials extends Component {
             </div>
           </div>
         </section>
-      </>
 
     );
   }
