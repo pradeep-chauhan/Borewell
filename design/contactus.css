@@ -22,3 +22,14 @@
   -webkit-transform: rotate(180deg) !important;
   transform: rotate(180deg) !important;
 }
+.fa{
+
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease-in-out;
+}
+.fa-map-marker{
+  width: 30px;
+  height: 40px;
+  transition: all 0.3s ease-in-out;
+}
