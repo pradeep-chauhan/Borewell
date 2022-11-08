@@ -13,8 +13,8 @@ const Gallery = () => {
     <div class="container-xxl py-5">
     <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" >
-            <p class=" text-uppercase mb-2 gallary">Our Works</p>
-            <h1 class="display-6 mb-0">Discover Our Unique And Creative Photoshoot</h1>
+            <p class=" text-uppercase mb-2 gallary text-heading">Our Works</p>
+            <h6 class="display-6 mb-0 heading">We’ve Done Lot’s Of Work, Let’s Check Some From Here</h6>
         </div>
         <div class="row g-3">
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">

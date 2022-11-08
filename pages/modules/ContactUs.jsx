@@ -7,7 +7,7 @@ const ContactUs = () => {
       <div className="container">
         <div className="row mt-5">
           <div className="col">
-            <h3 className='heading mb-3 mt-5 service'>Contact Us</h3>
+            <h3 className='mb-3 text-heading'>Contact Us</h3>
             <p >We Will love to here from you</p>
 
             <div className='row mt-3'>

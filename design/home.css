@@ -2,14 +2,16 @@
   color: transparent !important;
 }
 .button {
-  background-color: #8d3f26;
+  background-color: var(--button);
   color: #fff;
-  border-color: #8d3f26;
+  border-color: #ff8e3c;
   outline-color: transparent;
   transition: 0.3s;
    padding-left:20px;
   padding-right:20px;
-  
+}
+.btn:hover{
+  background-color: var(--button);
 }
 .home{
   background: url('../pages/images/homepage3.webp');
@@ -29,22 +31,16 @@
 .scrolled {
   background-color: #0B0B0B !important;
 }
-
-
 .naav{--bs-scroll-height: 100px;} 
-
 .my-element {
   display: inline-block;
   margin: 0 0.5rem;
-
-  animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+  animation: bounce; 
+  animation-duration: 2s;
 }
 .animate__animated.animate__bounce {
   --animate-duration: 2s;
 }
-
-/* This changes all the animations globally */
 :root {
   --animate-duration: 800ms;
   --animate-delay: 0.9s;

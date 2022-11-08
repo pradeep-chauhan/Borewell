@@ -1,9 +1,9 @@
-/* .tm-people {
+.tm-people {
   height: 225px;
   width: 225px !important;
   align-items: center;
 }
-  .carousel-root {
+.carousel-root {
   width: 64% !important;
   margin: auto !important;
   margin-top: 3% !important;
@@ -13,198 +13,6 @@
   color: black;
   height: 100%;
 }
-.myCarousel {
-  background: #FAFAFA;
-  margin-top: -6%;
-  width: 54%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 6%;
-  padding-bottom: 8%;
-  padding-left: 5%;
-  padding-right: 5%;
-  border: 1px solid #ddd;
-  height: 286px;
-}
-.carousel .control-dots {
-  padding-left: 5px !important;
-  outline: 0;
-  bottom: 5% !important;
-}
-.myCarousel h3 {
-  color: #222;
-  font-weight: 100;
-  letter-spacing: 0.2px;
-  margin-bottom: 4px;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 17px;
-}
-.myCarousel h4 {
-  text-transform: uppercase;
-  margin-top: 0;
-  padding-top: 0;
-  font-weight: 500;
-  color: #787878;
-  font-size: 14px;
-}
-.myCarousel p {
-  font-weight: 100 !important;
-  line-height: 29px !important;
-  color: #222;
-  font-size: 15px;
-  font-family: sans-serif;
-  max-height: 67px;
-}
-.myCarousel p:before {
-  content: "“";
-  color: #aaa;
-  font-size: 26px;
-  font-family: monospace;
-  font-weight: 100;
-}
-.myCarousel p:after {
-  content: "”";
-  color: #aaa;
-  font-size: 26px;
-  font-family: monospace;
-  font-weight: 100;
-  line-height: 0;
-}
-.carousel .control-dots .dot {
-  box-shadow: none !important;
-  background: #454545 !important;
-  outline: 0;
-}
-.carousel.carousel-slider .control-arrow {
-  background: #000 !important;
-  height: 50px !important;
-  position: absolute;
-  top: 35% !important;
-}
-.App {
-  text-align: center;
-  display: none;}
-/* .testimonial-image{
-  background: url('../pages/images/testimonial.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-} */
-
-/* pre {
-  background: #333;
-  white-space: pre;
-  word-wrap: break-word;
-  overflow: auto;
-  }
-  
-  pre.code {
-  margin: 20px 25px;
-  border-radius: 4px;
-  border: 1px solid #292929;
-  position: relative;
-  }
-  
-  pre.code label {
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  color: #ddd;
-  position: absolute;
-  left: 1px;
-  top: 15px;
-  text-align: center;
-  width: 60px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  pointer-events: none;
-  }
-  
-  pre.code code {
-  font-family: "Inconsolata", "Monaco", "Consolas", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier,
-  monospace;
-  display: block;
-  margin: 0 0 0 60px;
-  padding: 15px 16px 14px;
-  border-left: 1px solid #555;
-  overflow-x: auto;
-  font-size: 13px;
-  line-height: 19px;
-  color: #ddd;
-  }
-  
-  pre::after {
-  content: "double click to selection";
-  padding: 0;
-  width: auto;
-  height: auto;
-  position: absolute;
-  right: 18px;
-  top: 14px;
-  font-size: 12px;
-  color: #ddd;
-  line-height: 20px;
-  overflow: hidden;
-  -webkit-backface-visibility: hidden;
-  transition: all 0.3s ease;
-  }
-  
-  pre:hover::after {
-  opacity: 0;
-  visibility: visible;
-  }
-  
-  pre.code-css code {
-  color: #91a7ff;
-  }
-  
-  pre.code-html code {
-  color: #aed581;
-  }
-  
-  pre.code-javascript code {
-  color: #ffa726;
-  }
-  
-  pre.code-jquery code {
-  color: #4dd0e1;
-  }
-        
-
-
- */
-
-
-
-
-
-
- .tm-people {
-  height: 225px;
-  width: 225px !important;
-  align-items: center;
-}
-
-
-
-  
-  .carousel-root {
-  width: 64% !important;
-  margin: auto !important;
-  margin-top: 3% !important;
-}
-
-.carousel .slide {
-  background: #fff !important;
-  color: black;
-  height: 100%;
-}
-
-
-
 .myCarousel {
   background: #fafafa;
   margin-top: -6%;
@@ -218,13 +26,11 @@
   border: 1px solid #ddd;
   height: 286px;
 }
-
 .carousel .control-dots {
   padding-left: 5px !important;
   outline: 0;
   bottom: 5% !important;
 }
-
 .myCarousel h3 {
   color: #222;
   font-weight: 100;
@@ -234,7 +40,6 @@
   text-transform: uppercase;
   font-size: 17px;
 }
-
 .myCarousel h4 {
   text-transform: uppercase;
   margin-top: 0;
@@ -243,7 +48,6 @@
   color: #787878;
   font-size: 14px;
 }
-
 .myCarousel p {
   font-weight: 100 !important;
   line-height: 29px !important;
@@ -252,7 +56,6 @@
   font-family: sans-serif;
   max-height: 67px;
 }
-
 .myCarousel p:before {
   content: "“";
   color: #aaa;
@@ -260,7 +63,6 @@
   font-family: monospace;
   font-weight: 100;
 }
-
 .myCarousel p:after {
   content: "”";
   color: #aaa;
@@ -269,25 +71,20 @@
   font-weight: 100;
   line-height: 0;
 }
-
 .carousel .control-dots .dot {
   box-shadow: none !important;
   background: #454545 !important;
   outline: 0;
 }
-
 .carousel.carousel-slider .control-arrow {
   background: #000 !important;
   height: 50px !important;
   position: absolute;
   top: 35% !important;
 }
-
 .App {
   text-align: center;
 }
-
-
 @media only screen and (max-width: 934px) {
   .carousel-root {
     outline: 0;
@@ -315,14 +112,3 @@
     border-radius: 50%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-

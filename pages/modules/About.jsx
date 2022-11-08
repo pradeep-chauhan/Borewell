@@ -8,34 +8,23 @@ const About = () => {
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="row g-3 img-twice position-relative h-100">
-                        <div class="col-6">
-                        <Image className='img-fluid border p-3' src={Image1}/>
-                        </div>
-                        <div class="col-6 align-self-end">
-                        <Image className='img-fluid border p-3' src={Image2}/>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <p class="abouts text-uppercase mb-2">About Us</p>
-                        <h1 class="display-6 fw-bold mb-4">We Are Creative And Professional Photographer</h1>
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <h1 class=" text-heading text-uppercase mb-2 text-center">About Us</h1>
+                        <p className='paragraph'>We, Mahalaxmi Borewell, situated at Udaipur, Rajasthan are recognized as one of the most reliable multi-disciplinary drilling contractors.</p>
+                        <p className='paragraph'> We are known for our trustworthy services of soil testing, borewell, drilling and industrial drillings, etc. Our company is backed by trained and devoted experts that keep updating themselves with all the latest industrial technologies.</p>
                         <div class="row g-2 mb-4">
                             <div class="col-sm-6">
-                            <span className='iconcolor'><Check></Check></span> Quality Products
+                            <span className='iconcolor'><Check></Check></span> Quality Work
                             </div>
                             <div class="col-sm-6">
-                            <span className='iconcolor'><Check></Check></span> Custom Products
+                            <span className='iconcolor'><Check></Check></span> Fast work
                             </div>
                             <div class="col-sm-6">
                                <span className='iconcolor'><Check></Check></span> Online Order
                             </div>
                             <div class="col-sm-6">
-                            <span className='iconcolor'><Check></Check></span> Home Delivery
+                            <span className='iconcolor'><Check></Check></span>World class Technology
                             </div>
                         </div>
                        

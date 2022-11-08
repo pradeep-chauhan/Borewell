@@ -10,8 +10,8 @@ const Services = () => {
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="service">Our Services</h6>
-                <h1 class="mb-4">We Are Pioneers For Getting Water</h1>
+                <h6 class="text-heading">Our Services</h6>
+                <h1 class="mb-4 heading">We Are Pioneers For Getting Water</h1>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
@@ -21,8 +21,8 @@ const Services = () => {
                             <div class="service-icon">
                             <CloudUploadFill class="bi bi-play-circle-fill iconss"/>
                             </div>
-                            <h4 class="mb-3 fw-bold">Tube Well Drilling</h4>
-                            <p>We take pride to introduce ourselves as the best service provider in the field of tube well drilling.</p>
+                            <h4 class="card-heading mb-3 fw-bold">Tube Well Drilling Method</h4>
+                            <p className='card-paragraph'>We take pride to introduce ourselves as the best service provider in the field of tube well drilling.</p>
                             <a class="small fw-medium" href="">Contact Us <ArrowRight></ArrowRight></a>
                         </div>
                     </div>
@@ -34,8 +34,8 @@ const Services = () => {
                             <div class="service-icon">
                             <ConeStriped class="bi bi-play-circle-fill iconss"/>
                             </div>
-                            <h4 class="mb-3 fw-bold">Ground Water </h4>
-                            <p>The services for groundwater survey are conducted through integrated investigation potential zones.</p>
+                            <h4 class="card-heading mb-3 fw-bold">Ground Water Harvesting</h4>
+                            <p className='card-paragraph'>The services for groundwater survey are conducted through integrated investigation potential zones.</p>
                             <a class="small fw-medium" href="">Contact Us <ArrowRight></ArrowRight></a>
                         </div>
                     </div>
@@ -47,8 +47,8 @@ const Services = () => {
                             <div class="service-icon">
                             <LampFill class="bi bi-play-circle-fill iconss"/>
                             </div>
-                            <h4 class="mb-3 fw-bold">Rain Water Harvesting</h4>
-                            <p>Our expertise offers rainwater harvesting systems that comprise collection  storage of the rainwater.</p>
+                            <h4 class="card-heading mb-3 fw-bold">Rain Water Harvesting</h4>
+                            <p className='card-paragraph'>Our expertise offers rainwater harvesting systems that comprise collection  storage of the rainwater.</p>
                             <a class="small fw-medium" href="">Contact Us <ArrowRight></ArrowRight></a>
                         </div>
                     </div>
@@ -60,8 +60,8 @@ const Services = () => {
                             <div class="service-icon">
                             <Ladder class="bi bi-play-circle-fill iconss"/>
                             </div>
-                            <h4 class="mb-3 fw-bold">Rain Water Harvesting</h4>
-                            <p>Our expertise offers rainwater harvesting systems that comprise collection  storage of the rainwater.</p>
+                            <h4 class="card-heading mb-3 fw-bold">Rain Water Harvesting</h4>
+                            <p className='card-paragraph'>Our expertise offers rainwater harvesting systems that comprise collection  storage of the rainwater.</p>
                             <a class="small fw-medium" href="">Contact Us <ArrowRight></ArrowRight></a>
                         </div>
                     </div>

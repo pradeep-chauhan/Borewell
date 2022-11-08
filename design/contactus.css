@@ -4,32 +4,13 @@
   max-height: 100%;
   max-width: 100%;
 }
-
-.footer{
-  padding-top: 0 !important;
-  position: relative !important;
-  display: block;
-  overflow: hidden;
-  color: white;
-  background-color: #4ABD88;
+.fa {
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s ease-in-out;
 }
-.btn-white {
-  background: #fff;}
-.body-fill{
-  fill: white;
-}
-.rotate-180 {
-  -webkit-transform: rotate(180deg) !important;
-  transform: rotate(180deg) !important;
-}
-.fa{
-
-    width: 24px;
-    height: 24px;
-    transition: all 0.3s ease-in-out;
-}
-.fa-map-marker{
+.fa-map-marker {
   width: 30px;
-  height: 40px;
+  height: 35px;
   transition: all 0.3s ease-in-out;
 }

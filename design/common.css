@@ -1,48 +1,54 @@
-
 @font-face {
   font-family: wolf;
   src: url('../font/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2');
 }
-
-body{
-  font-family: wolf;
+:root {
+  --heading: #0d0d0d;
+  --button: #ff8e3c;
+  --paragraph: #2a2a2a;
+  --buttonText: #0d0d0d;
+  --subheading: #EAA636;
+  --subparagraph: #2a2a2a;
 }
-.paragraph{
+body {
+  font-family: wolf;
+  background-color: #eff0f3;
+}
+.paragraph {
   text-align: justify;
   font-size: 20px;
-  color: gray;
+  color: var(--paragraph)
 }
-.sub-heading{
+.sub-heading {
   font-size: 25px;
 }
-.heading{
+.heading {
   font-size: 32px;
+  color: var(--heading)
 }
-
-.card{
+.card {
   border: none !important;
 }
-.img-curve{
+.img-curve {
   border-radius: 15px 15px 15px 15px;
 }
 ul {
   list-style-type: none;
 }
-li{
+li {
   list-style-type: none;
 }
-
-a:link { text-decoration: none; color: black;}
-.gallery-images{
+a:link {
+  text-decoration: none;
+  color: black;
+}
+.gallery-images {
   grid-gap: 25px 25px;
 }
-
-
 /*** Project ***/
 .project-item {
   position: relative;
 }
-
 .project-item .project-title {
   position: absolute;
   top: auto;
@@ -54,63 +60,46 @@ a:link { text-decoration: none; color: black;}
   background: #FFFFFF;
   transition: .5s;
 }
-
 .project-item:hover .project-title {
   color: #FFFFFF;
   background: var(--primary);
 }
-
-
-
-.gallary{
-  color: green;
+.gallary {
+  color: var(--subheading);
   font-size: 24px;
 }
-
 .about .image {
   padding: 20px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
-
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
 }
-
 .about .content ul {
   list-style: none;
   padding: 0;
 }
-
 .about .content ul li {
   padding-bottom: 10px;
   display: flex;
   align-items: flex-start;
 }
-
 .about .content ul i {
   font-size: 24px;
   padding: 2px 6px 0 0;
   color: #7cc576;
 }
-
 .about .content p:last-child {
   margin-bottom: 0;
 }
-section {
-  padding: 60px 0;
-  overflow: hidden;
-}
-
 .section-bg {
   background-color: whitesmoke;
 }
-
 .section-title {
   text-align: center;
   padding-bottom: 40px;
 }
-
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
@@ -119,22 +108,14 @@ section {
   padding-bottom: 0;
   color: green;
 }
-
 .section-title p {
   margin-bottom: 0;
   color: #aeaeae;
 }
-.icon { color: #7cc576;}
-
-
-/********** Template CSS **********/
-:root {
-  --primary: #EAA636;
-
-  --light: #FDF5EB;
-  --dark: #1E1916;
+.icon {
+  color: #7cc576;
 }
-
+/********** Template CSS **********/
 .back-to-top {
   position: fixed;
   display: none;
@@ -142,8 +123,6 @@ section {
   bottom: 60px;
   z-index: 99;
 }
-
-
 .border {
   background-color: #FDF5EB !important;
 }
@@ -158,11 +137,17 @@ section {
   border: 1rem solid var(--light);
   z-index: -1;
 }
-.abouts{
-  color:#EAA636 ;
+.abouts {
+  color: #EAA636;
   font-size: 17px;
 }
 .iconcolor {
-  color:#EAA636 ;
+  color: #EAA636;
   font-size: 25px;
+}
+.card-paragraph {
+  color: var(--subparagraph);
+}
+.card-heading {
+  color: var(--heading);
 }

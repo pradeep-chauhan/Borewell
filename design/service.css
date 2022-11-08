@@ -1,8 +1,8 @@
 .service-item {
   box-shadow: 0 0 45px rgba(0, 0, 0, .08);
 }
-.service {
-  color: green;
+.text-heading {
+  color: var(--subheading);
   font-size: 27px;
 }
 .service-icon {
@@ -31,5 +31,5 @@
   height: 227px !important;
 }
 .small {
-  color: rgb(25, 193, 25);;
+  color: #ff8e3c;
 }
