@@ -11,8 +11,8 @@ const ContactUs = () => {
       <div className="container">
         <div className="row mt-5">
           <div className="col">
-            <h3 className='mb-5 text-heading'>Contact Us</h3>
-            <p >We Will love to here from you</p>
+            <h3 className='mb-3 text-heading'>Contact Us</h3>
+            <p className='mb-4'>We Will love to here from you</p>
 
             <div className='row mt-3 mx-1'>
               <div className='col-md-1 col-xl-1 col-lg-1 col-sm-1'>

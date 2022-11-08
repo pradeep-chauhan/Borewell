@@ -11,7 +11,7 @@ import { Messenger } from "react-bootstrap-icons";
 export default class Testimonials extends Component {
   render() {
     return (
-        <section class="container-xxl" >
+        <section class="container-xxl bg-color" >
           <div class="container-fluid bg-light " id="testimonial">
             <div class="container-fluid py-5">
               <h1 className='text-center service text-heading'>Testimonial</h1>
@@ -46,10 +46,9 @@ export default class Testimonials extends Component {
                             <Messenger></Messenger>
                           </div>
                         </div>
-                        <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                        <p class="fs-5 fst-italic"> Cost involved in the project was clearly explained. It was reasonable enough. Installation was followed with accurate scientific method.</p>
                         <hr class="w-25 mx-auto" />
-                        <h5>Client Name</h5>
-                        <span>Profession</span>
+                        <h5>Mr. Praveen</h5>
                       </div>
                     </div>
                     <div class="owl-carousel testimonial-carousel">
@@ -60,10 +59,9 @@ export default class Testimonials extends Component {
                             <Messenger></Messenger>
                           </div>
                         </div>
-                        <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                        <p class="fs-5 fst-italic"> It's my pleasure gaining best information about process followed at installation. MahaLaxmi has expert Ground Water Surveyors to predict with accuracy.</p>
                         <hr class="w-25 mx-auto" />
-                        <h5>Client Name</h5>
-                        <span>Profession</span>
+                        <h5>Mr. Ravi</h5>
                       </div>
                     </div>
                     <div class="owl-carousel testimonial-carousel">
@@ -74,10 +72,9 @@ export default class Testimonials extends Component {
                             <Messenger/>
                           </div>
                         </div>
-                        <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                        <p class="fs-5 fst-italic">  There was no hindrance at work. Team worked sincerely with less supervision. They proved their skills.</p>
                         <hr class="w-25 mx-auto" />
-                        <h5>Client Name</h5>
-                        <span>Profession</span>
+                        <h5>Mr. Karthik</h5>
                       </div>
                     </div>
                   </Carousel>

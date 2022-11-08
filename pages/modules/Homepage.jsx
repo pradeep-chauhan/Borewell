@@ -2,6 +2,7 @@
 
 
 import React from 'react'
+import { Whatsapp } from 'react-bootstrap-icons'
 
 const Homepage = () => {
   return (
@@ -20,7 +21,7 @@ const Homepage = () => {
                 <div class="card-body">
                   <h5 class="card-title fs-2">BOREWELLS DRILLING EQUIPMENTS &<br />
                     CONTRACTOR</h5>
-                    <div class="btn  button rounded-pill text-white px-4">Enquire Now</div>
+                  <div class="btn  button rounded-pill text-white px-4">Enquire Now</div>
 
                 </div>
               </div>
@@ -48,6 +49,11 @@ const Homepage = () => {
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+      </div>
+      <div class="icon-bar">
+        <a href="https://api.whatsapp.com/send?phone=919928845025" class="floating whatsapp" target="_blank">
+          <Whatsapp className='class="fa fa-whatsapp my-float"'></Whatsapp>
+        </a>
       </div>
     </section>
   )
