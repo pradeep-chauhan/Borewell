@@ -23,7 +23,6 @@ const Services = () => {
                             </div>
                             <h4 class="card-heading mb-3 fw-bold">Tube Well Drilling</h4>
                             <p className='card-paragraph'>We take pride to introduce ourselves as the best service provider in the field of tube well drilling.</p>
-                            <a class="small fw-medium" href="">Contact Us <ArrowRight></ArrowRight></a>
                         </div>
                     </div>
                 </div>
@@ -36,7 +35,6 @@ const Services = () => {
                             </div>
                             <h4 class="card-heading mb-3 fw-bold">Ground Water</h4>
                             <p className='card-paragraph'>The services for groundwater survey are conducted through integrated investigation potential zones.</p>
-                            <a class="small fw-medium" href="">Contact Us <ArrowRight></ArrowRight></a>
                         </div>
                     </div>
                 </div>
@@ -49,7 +47,6 @@ const Services = () => {
                             </div>
                             <h4 class="card-heading mb-3 fw-bold">Rain Water</h4>
                             <p className='card-paragraph'>Our expertise offers rainwater harvesting systems that comprise collection  storage of the rainwater.</p>
-                            <a class="small fw-medium" href="">Contact Us <ArrowRight></ArrowRight></a>
                         </div>
                     </div>
                 </div>
@@ -62,7 +59,6 @@ const Services = () => {
                             </div>
                             <h4 class="card-heading mb-3 fw-bold">Rain Water</h4>
                             <p className='card-paragraph'>Our expertise offers rainwater harvesting systems that comprise collection  storage of the rainwater.</p>
-                            <a class="small fw-medium" href="">Contact Us <ArrowRight></ArrowRight></a>
                         </div>
                     </div>
                 </div>
