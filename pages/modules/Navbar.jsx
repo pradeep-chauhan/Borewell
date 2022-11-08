@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import 'animate.css';
+
 const Navbar = () => {
   return (
-    <section>
+    <section >
       <div class="container-fluid ">
-        <nav class="navbar navbar-expand-lg fixed-top bg-transparent mx-5 " >
+        <nav class="navbar navbar-expand-lg fixed-top bg-transparent mx-5" 
+          >
           <a class="navbar-brand text-black" href="#">Mahalaxmi Borewell</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
