@@ -1,10 +1,7 @@
-/* @font-face {
-  font-family: wolf;
-  src: url(../font/icomoon.f0b8a3b3.woff2);
-} */
+
 @font-face {
   font-family: wolf;
-  src: url(../font/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2);
+  src: url('../font/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2');
 }
 
 body{
@@ -100,8 +97,6 @@ a:link { text-decoration: none; color: black;}
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
--------------------------------------------------------------*/
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -152,7 +147,6 @@ section {
 .border {
   background-color: #FDF5EB !important;
 }
-
 /*** About ***/
 .img-twice::before {
   position: absolute;
@@ -164,14 +158,11 @@ section {
   border: 1rem solid var(--light);
   z-index: -1;
 }
-
 .abouts{
   color:#EAA636 ;
   font-size: 17px;
 }
-
 .iconcolor {
   color:#EAA636 ;
   font-size: 25px;
 }
-

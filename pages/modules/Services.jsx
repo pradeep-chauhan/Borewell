@@ -48,7 +48,7 @@ const Services = () => {
                             <LampFill class="bi bi-play-circle-fill iconss"/>
                             </div>
                             <h4 class="mb-3 fw-bold">Rain Water Harvesting</h4>
-                            <p>Our expertise offers rainwater harvesting systems that comprise collection &amp; storage of the rainwater.</p>
+                            <p>Our expertise offers rainwater harvesting systems that comprise collection  storage of the rainwater.</p>
                             <a class="small fw-medium" href="">Contact Us <ArrowRight></ArrowRight></a>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ const Services = () => {
                             <Ladder class="bi bi-play-circle-fill iconss"/>
                             </div>
                             <h4 class="mb-3 fw-bold">Rain Water Harvesting</h4>
-                            <p>Our expertise offers rainwater harvesting systems that comprise collection &amp; storage of the rainwater.</p>
+                            <p>Our expertise offers rainwater harvesting systems that comprise collection  storage of the rainwater.</p>
                             <a class="small fw-medium" href="">Contact Us <ArrowRight></ArrowRight></a>
                         </div>
                     </div>
