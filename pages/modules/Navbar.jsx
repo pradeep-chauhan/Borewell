@@ -1,41 +1,42 @@
 import React, { useEffect, useState } from 'react'
 import 'animate.css';
+
 const Navbar = () => {
   return (
     <section >
-      <div class="container-fluid ">
-        <nav class="navbar navbar-expand-lg fixed-top bg-transparent mx-5" id="navbar-2">
-          <div class="container-fluid">
-            <a class="navbar-brand" id="logo" href="#">Mahalaxmi Borewell</a>
+      <div className="container-fluid ">
+        <nav className="navbar navbar-expand-lg fixed-top bg-transparent mx-5" id="navbar-2">
+          <div className="container-fluid">
+            <a className="navbar-brand" id="logo" href="#">Mahalaxmi Borewell</a>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent"
               aria-expanded="false"
               aria-label="Toggle navigation" >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-              <ul class="navbar-nav ">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul className="navbar-nav ">
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">HOME</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">SERVICES</a>
+                <li className="nav-item">
+                  <a className="nav-link" href="#services">SERVICES</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">ABOUT US</a>
+                <li className="nav-item">
+                  <a className="nav-link" href="#about">ABOUT US</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">GALLERY</a>
+                <li className="nav-item">
+                  <a className="nav-link" href="#gallery">GALLERY</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">TESTIMONIALS</a>
+                <li className="nav-item">
+                  <a className="nav-link" href="#testimonial">TESTIMONIALS</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">CONTACT</a>
+                <li className="nav-item">
+                  <a className="nav-link" href="#contact">CONTACT</a>
                 </li>
               </ul>
             </div>
@@ -45,13 +46,8 @@ const Navbar = () => {
     </section>
   )
 }
+
 export default Navbar
-
-
-
-
-
-
 
 
 

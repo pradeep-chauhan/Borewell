@@ -9,7 +9,7 @@ import Heading from '../component/Heading'
 const ContactUs = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container" id='contact'>
         <div className="row mt-5">
           <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12">
             <h3 className='mb-3 text-heading'>Contact Us</h3>

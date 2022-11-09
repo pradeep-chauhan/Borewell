@@ -11,7 +11,7 @@ import Image10 from '../images/Temp-400x500.png'
 import Heading from '../component/Heading'
 const Gallery = () => {
   return (
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id='gallery'>
     <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" >
              <Heading heading="Our Works" subHeading="We’ve Done Lot’s Of Work." />

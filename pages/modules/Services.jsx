@@ -11,7 +11,7 @@ import Image9 from '../images/well.png'
 import Heading from '../component/Heading'
 const Services = () => {
   return (
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id='services'>
         <div class="container">
             {/* heading */}
             <Heading heading="Our Services" subHeading="We Are Pioneers For Getting Water" />

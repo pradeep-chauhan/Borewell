@@ -6,7 +6,7 @@ import { Check } from 'react-bootstrap-icons'
 import Heading from '../component/Heading'
 const About = () => {
     return (
-        <div class="row-xxl py-5 bg-color">
+        <div class="row-xxl py-5 bg-color" id='about'>
             <div class="container">
                 <div class="row g-5">
                     <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.5s">
