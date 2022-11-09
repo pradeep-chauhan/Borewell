@@ -160,15 +160,9 @@ a:link {
 }
 .icon-bar {
   position: fixed;
-  
-  bottom: 40px;
-  right: 40px;
-  /* background-color: #25d366; */
-  /* color: #fff; */
+  bottom: 10px;
+  right: 20px;
   border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  /* box-shadow: 2px 2px 3px #999; */
   z-index: 100;
 }
 .icon-bar a {
@@ -178,17 +172,13 @@ a:link {
   transition: all 0.3s ease;
   font-size: 20px;
 }
-/* .whatsapp{
-	background-color:#25d366;
-	color: white !important;
-  border-radius: 50%;
-}
-fa-whatsapp{
-  font-size: 30px;
-} */
 .footer{
   font-size: 14px;
 }
 .my-float{
   font-size: 30px !important;
+}
+.whatsapp-img{
+  height: 44px;
+  width: 44px;
 }
