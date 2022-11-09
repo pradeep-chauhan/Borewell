@@ -10,7 +10,7 @@ const ContactUs = () => {
     <div>
       <div className="container">
         <div className="row mt-5">
-          <div className="col">
+          <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12">
             <h3 className='mb-3 text-heading'>Contact Us</h3>
             <p className='mb-4'>We Will love to here from you</p>
 
@@ -47,7 +47,7 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d906.8986029159131!2d73.79289801152288!3d24.603189885614853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e634fc3cdb71%3A0xb69a2a89cc68c833!2sUdaipur%2C%20Rajasthan%20313024!5e0!3m2!1sen!2sin!4v1667905870862!5m2!1sen!2sin" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
