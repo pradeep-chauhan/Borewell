@@ -30,7 +30,7 @@ export default function Home() {
       <Testimonial />
       <ContactUs />
       <Footer />
-      <FooterWebsite />
+      <FooterWebsite /> 
 {/* <Products /> */}
     </div>
   )

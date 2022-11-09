@@ -8,8 +8,8 @@ const About = () => {
     return (
         <div class="row-xxl py-5 bg-color" id='about'>
             <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="row ">
+                    <div class="col-lg-12  wow fadeInUp" data-wow-delay="0.5s">
                         <div class="h-100">
                             <Heading heading="About Us" />
                             <p>

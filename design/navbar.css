@@ -6,7 +6,25 @@
 .scrolled {
   background-color: #0b0b0b !important;
 }
-
+.navbar{
+  background-color: aquamarine;
+}
 .navbar-main{
   background-color: gold !important;
+}
+
+
+@media screen and (max-device-width: 987px){
+  .navbar-nav-drop{
+    background-color: white;
+    padding: 15px;
+    width: 200px;
+    float: right;
+  }
+}
+
+@media screen and (max-device-width: 987px){
+  .footerLink{
+    float: left;
+  }
 }
