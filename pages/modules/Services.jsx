@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Image1 from '../images/service3.webp'
 import Image3 from '../images/services3.webp'
-import Image4 from '../images/services4.webp'
+import Image4 from '../images/earthdrilling.jpeg'
 import Image5 from '../images/service2.jpeg'
 import Image6 from '../images/tubewell (1).png'
 import Image7 from '../images/rainwater (2).png'
@@ -47,8 +47,8 @@ const Services = () => {
                             <div class="service-icon">
                             <Image src={Image8} class="bi bi-play-circle-fill iconss"/>
                             </div>
-                            <h4 class="card-heading mb-3 fw-bold">Rain Water</h4>
-                            <p className='card-paragraph'>Our expertise offers rainwater harvesting systems that comprise collection  storage of the rainwater zones.</p>
+                            <h4 class="card-heading mb-3 fw-bold">Borewell Drilling</h4>
+                            <p className='card-paragraph'>Our team of professionals by using sharp edge technology and advance machines and equipments</p>
                         </div>
                     </div>
                 </div>
