@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Image1 from '../images/service3.webp'
-import Image3 from '../images/services3.webp'
+import Image3 from '../images/borewelldrilling.jpg'
 import Image4 from '../images/earthdrilling.jpeg'
 import Image5 from '../images/service2.jpeg'
 import Image6 from '../images/tubewell (1).png'
