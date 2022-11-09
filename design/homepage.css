@@ -32,14 +32,14 @@
   display: none;
 }
 
-.homepage h3{
-  font-size: 4rem;
+.homepage h1{
+  font-size: 4rem !important;
 
 }
 .homepage-btn {
-  padding: 15px 30px 15px 30px;
-  color: white;
+  padding: 15px 30px 15px 30px !important;
+  color: white !important;
 }
 .homepage-btn a{
-  color: white;
+  color: white !important;
 }

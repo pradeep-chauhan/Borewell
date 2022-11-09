@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <section >
       <div className="container-fluid ">
-        <nav className="navbar navbar-expand-lg fixed-top bg-transparent mx-5" id="navbar-2">
+        <nav className="navbar navbar-expand-lg  bg-transparent mx-5" id="navbar-2">
           <div className="container-fluid">
             <a className="navbar-brand" id="logo" href="#">Mahalaxmi Borewell</a>
             <button

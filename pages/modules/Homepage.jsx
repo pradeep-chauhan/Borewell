@@ -6,6 +6,7 @@ import Typewriter from 'typewriter-effect';
 const Homepage = () => {
   return (
     <section id='home'>
+      
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-interval="10000">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -35,7 +36,7 @@ const Homepage = () => {
         </div>
       </div>
       <div class=" move-text  card-move" >
-  <h1> <Typewriter 
+  <h1 className='homepage'> <Typewriter 
   options={{
     delay: 300,
   }}
@@ -46,7 +47,7 @@ const Homepage = () => {
             .start();
         }}
       /></h1>
-        <h3 class="card-title homepage fs-2 mt-3">EQUIPMENTS AND CONTRACTORS</h3>
+        <h3 class="card-title  fs-2 mt-3">EQUIPMENTS AND CONTRACTORS</h3>
         <p class="fs-5 mt-3 ">We have been serving from past 32 years in udaipur</p>
         <div class="btn mt-3 homepage-btn button rounded-pill text-white px-4" ><a href="https://api.whatsapp.com/send?phone=919928845025">Enquire Now</a></div>
       </div>
