@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import 'animate.css';
-
 const Navbar = () => {
-  
   return (
     <section >
       <div class="container-fluid ">
@@ -47,5 +45,16 @@ const Navbar = () => {
     </section>
   )
 }
-
 export default Navbar
+
+
+
+
+
+
+
+
+
+
+
+

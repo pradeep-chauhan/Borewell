@@ -38,7 +38,7 @@ export default class Testimonials extends Component {
                     autoPlay={true}
                     interval={6100}
                   >
-                    <div class="owl-carousel testimonial-carousel">
+                
                       <div class="testimonial-item text-center">
                         <div class="position-relative mb-5">
                           <Image class="w-25 h-25 rounded-circle border border-secondary p-2 mx-auto" src={Image2} />
@@ -50,8 +50,6 @@ export default class Testimonials extends Component {
                         <hr class="w-25 mx-auto" />
                         <h5>Mr. Praveen</h5>
                       </div>
-                    </div>
-                    <div class="owl-carousel testimonial-carousel">
                       <div class="testimonial-item text-center">
                         <div class="position-relative mb-5">
                           <Image class="w-25 h-25 rounded-circle border border-secondary p-2 mx-auto" src={Image3} />
@@ -63,8 +61,6 @@ export default class Testimonials extends Component {
                         <hr class="w-25 mx-auto" />
                         <h5>Mr. Ravi</h5>
                       </div>
-                    </div>
-                    <div class="owl-carousel testimonial-carousel">
                       <div class="testimonial-item text-center">
                         <div class="position-relative mb-5">
                           <Image class="w-25 h-25 rounded-circle border border-secondary p-2 mx-auto" src={Image5} />
@@ -76,7 +72,6 @@ export default class Testimonials extends Component {
                         <hr class="w-25 mx-auto" />
                         <h5>Mr. Karthik</h5>
                       </div>
-                    </div>
                   </Carousel>
                 </div>
                 <div class="col-lg-3 d-none d-lg-block">

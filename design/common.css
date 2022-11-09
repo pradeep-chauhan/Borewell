@@ -1,6 +1,6 @@
 @font-face {
   font-family: wolf;
-  src: url('../font/CooperLtBTLight.ttf');
+  src: url('../font/cooper_lt_bt/CooperLtBTLight.ttf');
 }
 :root {
   --heading: #0d0d0d;
