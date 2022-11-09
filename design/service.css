@@ -38,17 +38,3 @@
 .slidername{
   margin: 5%;
 }
-
-
-.item {
- height: fit-content;
-}
-.image-shops{
-  background-position: center !important;
-}
-
-.owl-carousel {
-  display: flex;
-  align-items: center !important;
-  margin: 4.0%;
-}
