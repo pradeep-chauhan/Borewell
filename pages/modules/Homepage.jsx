@@ -46,9 +46,9 @@ const Homepage = () => {
             .start();
         }}
       /></h1>
-        <h3 class="card-title fs-2 mt-3">EQUIPMENTS AND CONTRACTORS</h3>
+        <h3 class="card-title homepage fs-2 mt-3">EQUIPMENTS AND CONTRACTORS</h3>
         <p class="fs-5 mt-3 ">We have been serving from past 32 years in udaipur</p>
-        <div class="btn mt-3 button rounded-pill text-white px-4" ><a href="https://api.whatsapp.com/send?phone=919928845025">Enquire Now</a></div>
+        <div class="btn mt-3 homepage-btn button rounded-pill text-white px-4" ><a href="https://api.whatsapp.com/send?phone=919928845025">Enquire Now</a></div>
       </div>
       <div class="icon-bar">
         <a href="https://api.whatsapp.com/send?phone=919928845025" class="floating whatsapp whatsapp-img" target="_blank">

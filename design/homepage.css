@@ -26,7 +26,20 @@
 .card-move {
   position: absolute;
   left: 12%;
+  top: 15rem;
 }
 .Typewriter__cursor{
   display: none;
+}
+
+.homepage h3{
+  font-size: 4rem;
+
+}
+.homepage-btn {
+  padding: 15px 30px 15px 30px;
+  color: white;
+}
+.homepage-btn a{
+  color: white;
 }

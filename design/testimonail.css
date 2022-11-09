@@ -70,3 +70,9 @@
 .control-dots{
 display: none;
 }
+.control-arrow {
+    display: none;
+}
+.control-prev {
+    display: none;
+}
