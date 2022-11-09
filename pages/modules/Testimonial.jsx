@@ -19,9 +19,9 @@ export default class Testimonials extends Component {
               <div class="row justify-content-center">
                 <div class="col-lg-3 d-none d-lg-block">
                   <div class="testimonial-left h-100">
-                    <Image class="img-fluid wow border fadeIn" data-wow-delay="0.1s" src={Image2} alt="" />
-                    <Image class="img-fluid wow border fadeIn" data-wow-delay="0.3s" src={Image3} alt="" />
-                    <Image class="img-fluid wow border fadeIn" data-wow-delay="0.5s" src={Image5} alt="" />
+                    <Image class="img-fluid wow border fadeIn" data-wow-delay="0.1s" src={Image2} alt="Testimonial image" />
+                    <Image class="img-fluid wow border fadeIn" data-wow-delay="0.3s" src={Image3} alt="Testimonial image" />
+                    <Image class="img-fluid wow border fadeIn" data-wow-delay="0.5s" src={Image5} alt="Testimonial image" />
                   </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -41,7 +41,7 @@ export default class Testimonials extends Component {
                 
                       <div class="testimonial-item text-center">
                         <div class="position-relative mb-5">
-                          <Image class="w-25 h-25 rounded-circle border border-secondary p-2 mx-auto" src={Image2} />
+                          <Image class="w-25 h-25 rounded-circle border border-secondary p-2 mx-auto" src={Image2} alt="Testimonial image"/>
                           <div class="testimonial-icon">
                             <Messenger></Messenger>
                           </div>
@@ -52,7 +52,7 @@ export default class Testimonials extends Component {
                       </div>
                       <div class="testimonial-item text-center">
                         <div class="position-relative mb-5">
-                          <Image class="w-25 h-25 rounded-circle border border-secondary p-2 mx-auto" src={Image3} />
+                          <Image class="w-25 h-25 rounded-circle border border-secondary p-2 mx-auto" src={Image3} alt="Testimonial image"/>
                           <div class="testimonial-icon">
                             <Messenger></Messenger>
                           </div>
@@ -63,7 +63,7 @@ export default class Testimonials extends Component {
                       </div>
                       <div class="testimonial-item text-center">
                         <div class="position-relative mb-5">
-                          <Image class="w-25 h-25 rounded-circle border border-secondary p-2 mx-auto" src={Image5} />
+                          <Image class="w-25 h-25 rounded-circle border border-secondary p-2 mx-auto" src={Image5} alt="Testimonial image"/>
                           <div class="testimonial-icon">
                             <Messenger/>
                           </div>
@@ -76,9 +76,9 @@ export default class Testimonials extends Component {
                 </div>
                 <div class="col-lg-3 d-none d-lg-block">
                   <div class="testimonial-right h-100">
-                    <Image class="img-fluid wow border fadeIn" data-wow-delay="0.1s" src={Image3} alt="" />
-                    <Image class="img-fluid wow border fadeIn" data-wow-delay="0.3s" src={Image2} alt="" />
-                    <Image class="img-fluid wow border fadeIn" data-wow-delay="0.5s" src={Image5} alt="" />
+                    <Image class="img-fluid wow border fadeIn" data-wow-delay="0.1s" src={Image3} alt="Testimonial image" />
+                    <Image class="img-fluid wow border fadeIn" data-wow-delay="0.3s" src={Image2} alt="Testimonial image" />
+                    <Image class="img-fluid wow border fadeIn" data-wow-delay="0.5s" src={Image5} alt="Testimonial image" />
                   </div>
                 </div>
               </div>
