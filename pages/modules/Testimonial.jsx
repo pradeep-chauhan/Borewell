@@ -15,7 +15,7 @@ export default class Testimonials extends Component {
           <div class="container-fluid bg-light " id="testimonial">
             <div class="container-fluid py-5">
               <h1 className='text-center service text-heading'>Testimonial</h1>
-              <p className='paragraph text-center mb-5'>You Can See our clients feedback </p>
+              <p className='paragraph text-center mb-5'>You Can See Our Clients Feedback </p>
               <div class="row justify-content-center">
                 <div class="col-lg-3 d-none d-lg-block">
                   <div class="testimonial-left h-100">

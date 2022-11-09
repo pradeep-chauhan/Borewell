@@ -15,20 +15,10 @@ const Homepage = () => {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="image-1 homepage-image-2">
-              <div class=" move-text  card-move" >
-                  <h5 class="card-title fs-2">BOREWELLS DRILLING EQUIPMENTS &<br />
-                    CONTRACTOR</h5>
-                  <div class="btn  button rounded-pill text-white px-4">Enquire Now</div>
-              </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="image-1 homepage-image-1">
-            <div class=" move-text  card-move" >
-                <h5 class="card-title fs-2">BOREWELLS DRILLING EQUIPMENTS &<br />
-                  CONTRACTOR</h5>
-                <div class="btn  button rounded-pill text-white px-4">Enquire Now</div>
-            </div>
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
@@ -42,6 +32,11 @@ const Homepage = () => {
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+      </div>
+      <div class=" move-text  card-move" >
+        <h5 class="card-title fs-2">BOREWELLS DRILLING EQUIPMENTS &<br />
+          CONTRACTOR</h5>
+        <div class="btn  button rounded-pill text-white px-4">Enquire Now</div>
       </div>
       <div class="icon-bar">
         <a href="https://api.whatsapp.com/send?phone=919928845025" class="floating whatsapp" target="_blank">

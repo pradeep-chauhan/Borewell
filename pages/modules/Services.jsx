@@ -61,7 +61,7 @@ const Services = () => {
                             <Image src={Image7} class="bi bi-play-circle-fill iconss"/>
                             </div>
                             <h4 class="card-heading mb-3 fw-bold">Earth Drilling</h4>
-                            <p className='card-paragraph'>Our expertise offers earth drilling systems and collection of soil rock core samples</p>
+                            <p className='card-paragraph'>Earth Drilling has provided environmental, geotechnical, oil sands, mining, civil construction and water well </p>
                         </div>
                     </div>
                 </div>
