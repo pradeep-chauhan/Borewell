@@ -34,8 +34,11 @@ const Homepage = () => {
         </div>
       </div>
       <div class=" move-text  card-move" >
-        <h5 class="card-title fs-2">BOREWELLS DRILLING EQUIPMENTS</h5>
-        <h5 class="card-title fs-2 mt-3">CONTRACTOR</h5>
+        <div>
+          <h5 class="card-title fs-2">BOREWELLS DRILLING EQUIPMENTS</h5>
+          <h5 class="card-title fs-2 mt-3">CONTRACTOR</h5>
+        </div>
+
         <div class="btn mt-3 button rounded-pill text-white px-4">Enquire Now</div>
       </div>
       <div class="icon-bar">

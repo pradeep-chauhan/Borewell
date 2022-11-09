@@ -8,14 +8,13 @@ import Image6 from '../images/tubewell (1).png'
 import Image7 from '../images/rainwater (2).png'
 import Image8 from '../images/oil-well (1).png'
 import Image9 from '../images/well.png'
+import Heading from '../component/Heading'
 const Services = () => {
   return (
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-heading">Our Services</h6>
-                <h1 class="mb-4 heading">We Are Pioneers For Getting Water</h1>
-            </div>
+            {/* heading */}
+            <Heading heading="Our Services" subHeading="We Are Pioneers For Getting Water" />
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded overflow-hidden">

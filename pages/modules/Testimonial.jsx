@@ -8,14 +8,14 @@ import Image3 from '../images/testimonial-1.jpg'
 import Image4 from '../images/people4.jpg'
 import Image5 from '../images/testimonial-2.jpg'
 import { Messenger } from "react-bootstrap-icons";
+import Heading from '../component/Heading'
 export default class Testimonials extends Component {
   render() {
     return (
-        <section class="container-xxl bg-color" >
-          <div class="container-fluid bg-light " id="testimonial">
+        <section class="row-xxl bg-color" >
+          <div class="container" id="testimonial">
             <div class="container-fluid py-5">
-              <h1 className='text-center service text-heading'>Testimonial</h1>
-              <p className='paragraph text-center mb-5'>You Can See Our Clients Feedback </p>
+            <Heading heading="Testimonial" subHeading="You Can See Our Clients Feedback" />
               <div class="row justify-content-center">
                 <div class="col-lg-3 d-none d-lg-block">
                   <div class="testimonial-left h-100">
