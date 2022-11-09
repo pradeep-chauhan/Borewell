@@ -36,7 +36,7 @@ const Homepage = () => {
         </div>
       </div>
       <div class=" move-text  card-move" >
-  <h1 className='homepage'> <Typewriter 
+  <h1 className='homepage-font'> <Typewriter 
   options={{
     delay: 300,
   }}
