@@ -18,7 +18,7 @@ const Services = () => {
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded overflow-hidden">
-                 <Image className='img-fluid service-img' src={Image1}/>
+                 <Image className='img-fluid service-img' src={Image5}/>
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
                             <Image src={Image6} class="bi bi-play-circle-fill iconss"/>
@@ -30,7 +30,7 @@ const Services = () => {
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded overflow-hidden">
-                    <Image className='img-fluid service-img' src={Image5}/>
+                    <Image className='img-fluid service-img' src={Image1}/>
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
                             <Image src={Image9} class="bi bi-play-circle-fill iconss"/>
