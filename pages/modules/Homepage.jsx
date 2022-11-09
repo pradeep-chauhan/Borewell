@@ -2,6 +2,7 @@ import React from 'react'
 import { Whatsapp } from 'react-bootstrap-icons'
 import Image from 'next/image'
 import Image1 from '../images/whatsapp (1).png'
+import Typewriter from 'typewriter-effect';
 const Homepage = () => {
   return (
     <section id='home'>
@@ -34,11 +35,19 @@ const Homepage = () => {
         </div>
       </div>
       <div class=" move-text  card-move" >
-        <div>
-          <h5 class="card-title fs-2">BOREWELLS DRILLING EQUIPMENTS</h5>
-          <h5 class="card-title fs-2 mt-3">CONTRACTOR</h5>
-        </div>
-
+  <h1> <Typewriter 
+  options={{
+    delay: 300,
+  }}
+        onInit={(typewriter) => {
+          typewriter.typeString('BOREWELLS DRILLING')
+            .callFunction(() => {
+            })
+            .start();
+        }}
+      /></h1>
+        <h3 class="card-title fs-2 mt-3">EQUIPMENTS AND CONTRACTORS</h3>
+        <p class="fs-5 mt-3 ">We have been serving from past 32 years in udaipur</p>
         <div class="btn mt-3 button rounded-pill text-white px-4">Enquire Now</div>
       </div>
       <div class="icon-bar">

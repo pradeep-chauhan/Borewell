@@ -27,3 +27,6 @@
   position: absolute;
   left: 12%;
 }
+.Typewriter__cursor{
+  display: none;
+}

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "animate.css": "^4.1.1",
+    "animate.css-react": "^1.1.0",
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.9.1",
     "mdb-react-ui-kit": "^5.0.0",
@@ -25,6 +26,7 @@
     "react-responsive-carousel": "^3.2.23",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
-    "styled-components": "^5.3.6"
+    "styled-components": "^5.3.6",
+    "typewriter-effect": "^2.19.0"
   }
 }

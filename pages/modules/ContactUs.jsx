@@ -13,14 +13,14 @@ const ContactUs = () => {
         <div className="row mt-5">
           <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12">
             <h3 className='mb-3 text-heading'>Contact Us</h3>
-            <p className='mb-4'>We Will love to here from you</p>
+            <Heading subHeading="We Will love to here from you" />
 
             <div className='row mt-3 mx-1'>
               <div className='col-md-1 col-xl-1 col-lg-1 col-sm-1'>
                 <Image src={Image1} />
               </div>
               <div className='col-md-10 col-xl-10 col-lg-10 col-sm-11'>
-                <p className='contactUs'>Near RAC Battalion, Lohar Colony, Debari, Airport Road, Udaipur-313024 (Raj.)</p>
+                <p className='contactUs fs-5'>Near RAC Battalion, Lohar Colony, Debari, Airport Road, Udaipur-313024 (Raj.)</p>
               </div>
             </div>
             <div className='row mx-1'>
@@ -36,7 +36,7 @@ const ContactUs = () => {
                 <Image src={Image3} />
               </div>
               <div className='col-md-11 col-xl-11 col-lg-11 col-sm-11'>
-                <p className='contactUs'><a href="mailto:mloharmalviya@gmail.com" className=""> mloharmalviya@gmail.com </a></p>
+                <p className='contactUs'><a href="mailto:mloharmalviya@gmail.com" className="fs-5"> mloharmalviya@gmail.com </a></p>
               </div>
             </div>
             <div className='row  mx-1'>
@@ -44,7 +44,7 @@ const ContactUs = () => {
                 <Image src={Image4} />
               </div>
               <div className='col-md-11 col-xl-11 col-lg-11 col-sm-11'>
-                <p className='contactUs'>Mon - Sat:- 9:00 am - 7:00 pm,</p>
+                <p className='contactUs fs-5'>Mon - Sat:- 9:00 am - 7:00 pm,</p>
               </div>
             </div>
           </div>
