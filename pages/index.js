@@ -8,6 +8,7 @@ import FooterWebsite from './modules/Footer-website'
 import Gallery from './modules/Gallery'
 import Homepage from './modules/Homepage'
 import Navbar from './modules/Navbar'
+import Products from './modules/Products'
 import Services from './modules/Services'
 import Testimonial from './modules/Testimonial'
 import Videos from './modules/Videos'
@@ -30,7 +31,7 @@ export default function Home() {
       <ContactUs />
       <Footer />
       <FooterWebsite />
-
+{/* <Products /> */}
     </div>
   )
 }
