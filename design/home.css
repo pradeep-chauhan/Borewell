@@ -45,8 +45,6 @@
   --animate-duration: 800ms;
   --animate-delay: 0.9s;
 }
-
-
 @media screen and (max-device-width: 480px){
   .homepage-font{
     font-size: 2.7rem !important;

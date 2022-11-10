@@ -1,8 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import Image1 from '../images/service3.webp'
-import Image2 from '../images/services2.webp'
-import { Check } from 'react-bootstrap-icons'
 import Heading from '../component/Heading'
 const About = () => {
     return (

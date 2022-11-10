@@ -4,7 +4,6 @@ import Image1 from '../images/placeholder.png'
 import Image2 from '../images/phone.png'
 import Image3 from '../images/email.png'
 import Image4 from '../images/time.png'
-import Heading from '../component/Heading'
 
 const ContactUs = () => {
   return (

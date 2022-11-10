@@ -3,15 +3,12 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import About from './modules/About'
 import ContactUs from './modules/ContactUs'
-import Footer from './modules/Footer'
 import FooterWebsite from './modules/Footer-website'
 import Gallery from './modules/Gallery'
 import Homepage from './modules/Homepage'
 import Navbar from './modules/Navbar'
-import Products from './modules/Products'
 import Services from './modules/Services'
 import Testimonial from './modules/Testimonial'
-import Videos from './modules/Videos'
 
 export default function Home() {
   return (
@@ -36,9 +33,7 @@ export default function Home() {
       <Gallery />
       <Testimonial />
       <ContactUs />
-      <Footer />
       <FooterWebsite />
-      {/* <Products /> */}
     </div>
   )
 }

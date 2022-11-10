@@ -1,56 +1,77 @@
-import React, { useEffect, useState } from 'react'
-import 'animate.css';
+import { useEffect, useState } from "react";
 
-const Navbar = () => {
+export default function Navigation() {
+  const [clientWindowHeight, setClientWindowHeight] = useState("");
+  const [backgroundTransparacy, setBackgroundTransparacy] = useState(0);
+  const [padding, setPadding] = useState(20);
+  const [boxShadow, setBoxShadow] = useState(0);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
+
+  const handleScroll = () => {
+    setClientWindowHeight(window.scrollY);
+  };
+
+  useEffect(() => {
+    let backgroundTransparacyVar = clientWindowHeight / 600;
+
+    if (backgroundTransparacyVar < 1) {
+      let paddingVar = 25 - backgroundTransparacyVar * 20;
+      let boxShadowVar = backgroundTransparacyVar * 0.1;
+      setBackgroundTransparacy(backgroundTransparacyVar);
+      setPadding(paddingVar);
+      setBoxShadow(boxShadowVar);
+    }
+  }, [clientWindowHeight]);
+
   return (
-    <section >
-      <div className="container-fluid ">
-        <nav className="navbar navbar-expand-lg  bg-transparent mx-5" id="navbar-2">
-          <div className="container-fluid">
-            <a className="navbar-brand" id="logo" href="#">Mahalaxmi Borewell</a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation" >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-              <ul className="navbar-nav navbar-nav-drop">
-                <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">HOME</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#services">SERVICES</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#about">ABOUT US</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#gallery">GALLERY</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#testimonial">TESTIMONIALS</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#contact">CONTACT</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div >
-    </section>
-  )
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top"
+      style={{
+        background: `rgba(255, 255, 255, ${backgroundTransparacy})`,
+        padding: `${padding}px 0px`,
+        boxShadow: `rgb(0 0 0 / ${boxShadow}) 0px 0px 20px 6px`,
+      }}
+    >
+    <div class="container">
+    <a class="navbar-brand" id="logo" href="#">Mahalaxmi Borewell</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav navbar-nav-drop">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">SERVICES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">GALLERY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonial">TESTIMONIALS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">CONTACT</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+    </nav>
+  );
 }
-
-export default Navbar
-
-
-
-
-
-
