@@ -35,7 +35,7 @@ const ContactUs = () => {
                 <Image src={Image3} alt="Email"/>
               </div>
               <div className='col-md-11 col-xl-11 col-lg-11 col-sm-11'>
-                <p className='contactUs'><a href="mailto:mloharmalviya@gmail.com" className="fs-5"> mloharmalviya@gmail.com </a></p>
+                <p className='contactUs'><a href="mailto:mloharmalviya50@gmail.com" className="fs-5"> mloharmalviya50@gmail.com </a></p>
               </div>
             </div>
             <div className='row  mx-1'>
