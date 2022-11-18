@@ -48,7 +48,7 @@ const Services = () => {
                             <Image src={Image8} alt="Borewell Drilling image" class="bi bi-play-circle-fill iconss"/>
                             </div>
                             <h4 class="card-heading mb-3 fw-bold">Borewell Drilling</h4>
-                            <p className='card-paragraph'>Our team of professionals by using sharp edge technology and advance machines and equipments</p>
+                            <p className='card-paragraph'>Our team of professionals by using sharp edge technology and advance machines and equipments are used.</p>
                         </div>
                     </div>
                 </div>
