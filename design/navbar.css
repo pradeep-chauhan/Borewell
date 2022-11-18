@@ -12,13 +12,15 @@
 .navbar-main{
   background-color: gold !important;
 }
-
+.logo-image{
+  width:125px;
+  height:125px;
+  padding-top: 0% !important;
+  padding: 0% !important;
+}
 
 @media screen and (max-device-width: 987px){
   .navbar-nav-drop{
-    /* background-color: white;
-    padding: 15px;
-    width: 200px; */
     float: right;
   }
 }
@@ -28,21 +30,3 @@
     float: left;
   }
 }
-/* @media screen and (max-device-width: 793px){
-  .homepage-image-1{
-    background: url('../pages/images/homepage.webp');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(1.5px);
-    height: 110vh !important;
-  }
-  .homepage-image-2{
-    background: url('../pages/images/homepage3.webp');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(1.5px);
-    height: 110vh !important;
-  }
-} */

@@ -19,7 +19,7 @@ export default function Navigation() {
     let backgroundTransparacyVar = clientWindowHeight / 600;
 
     if (backgroundTransparacyVar < 1) {
-      let paddingVar = 25 - backgroundTransparacyVar * 20;
+      let paddingVar = 20 - backgroundTransparacyVar * 20;
       let boxShadowVar = backgroundTransparacyVar * 0.1;
       setBackgroundTransparacy(backgroundTransparacyVar);
       setPadding(paddingVar);
@@ -27,6 +27,7 @@ export default function Navigation() {
     }
   }, [clientWindowHeight]);
 
+  console.log(clientWindowHeight, 'clientWindowHeight')
   return (
     <nav
       class="navbar navbar-expand-lg navbar-light fixed-top"
@@ -37,7 +38,11 @@ export default function Navigation() {
       }}
     >
     <div class="container">
-    <a class="navbar-brand" id="logo" href="#">Mahalaxmi Borewell</a>
+      {clientWindowHeight ? (
+        <a class="navbar-brand" id="logo" href="#">Mahalaxmi Borewell</a>
+      ) : (
+        <img src="/borewell.svg" className="logo-image" />
+      )}
     <button
       class="navbar-toggler"
       type="button"
