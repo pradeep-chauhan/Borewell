@@ -13,54 +13,53 @@ const Services = () => {
   return (
     <div class="container-xxl py-5" id='services'>
         <div class="container">
-            {/* heading */}
-            <Heading heading="Our Services" subHeading="We Are Pioneers For Getting Water" />
+            <Heading itemProp='heading' heading="Our Services" subHeading="We Are Pioneers For Getting Water" />
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded overflow-hidden">
-                 <Image className='img-fluid service-img' alt="Tube Well Drilling image" src={Image5}/>
+                 <Image className='img-fluid service-img' alt="MahaLaxmi Tube Well Drilling image" src={Image5} itemProp='image'/>
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                            <Image src={Image6} alt="Tube Well Drilling image" class="bi bi-play-circle-fill iconss"/>
+                            <Image src={Image6} itemProp='image' alt="MahaLaxmi Tube Well Drilling" class="bi bi-play-circle-fill iconss"/>
                             </div>
-                            <h4 class="card-heading mb-3 fw-bold">Tube Well Drilling</h4>
-                            <p className='card-paragraph'>We take pride to introduce ourselves as the best service provider in the field of tube well drilling.</p>
+                            <h4 class="card-heading mb-3 fw-bold" itemProp='heading'>Tube Well Drilling</h4>
+                            <p className='card-paragraph' itemProp='description'>We take pride to introduce ourselves as the best service provider in the field of tube well drilling.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded overflow-hidden">
-                    <Image className='img-fluid service-img' alt="Ground Water Drilling image" src={Image1}/>
+                    <Image className='img-fluid service-img' alt="MahaLaxmi Ground Water Drilling image" src={Image1} itemProp='image'/>
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                            <Image src={Image9} alt="Ground Water Drilling image" class="bi bi-play-circle-fill iconss"/>
+                            <Image src={Image9} itemProp='image' alt="MahaLaxmi Ground Water Drilling image" class="bi bi-play-circle-fill iconss"/>
                             </div>
-                            <h4 class="card-heading mb-3 fw-bold">Ground Water</h4>
-                            <p className='card-paragraph'>The services for groundwater survey are conducted through integrated investigation potential zones.</p>
+                            <h4 class="card-heading mb-3 fw-bold" itemProp='heading'>Ground Water</h4>
+                            <p className='card-paragraph' itemProp='description'>The services for groundwater survey are conducted through integrated investigation potential zones.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded overflow-hidden">
-                    <Image className='img-fluid service-img' alt="Borewell Drilling image" src={Image3}/>
+                    <Image className='img-fluid service-img' alt="MahaLaxmi Borewell Drilling image" itemProp='image' src={Image3}/>
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                            <Image src={Image8} alt="Borewell Drilling image" class="bi bi-play-circle-fill iconss"/>
+                            <Image src={Image8} itemProp='image' alt="MahaLaxmi Borewell Drilling image" class="bi bi-play-circle-fill iconss"/>
                             </div>
-                            <h4 class="card-heading mb-3 fw-bold">Borewell Drilling</h4>
-                            <p className='card-paragraph'>Our team of professionals by using sharp edge technology and advance machines and equipments are used.</p>
+                            <h4 class="card-heading mb-3 fw-bold" itemProp='heading'>Borewell Drilling</h4>
+                            <p className='card-paragraph' itemProp='description'>Our team of professionals by using sharp edge technology and advance machines and equipments are used.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded overflow-hidden">
-                    <Image className='img-fluid service-img' src={Image4}/>
+                    <Image className='img-fluid service-img' src={Image4} alt="MahaLaxmin Earth Drilling" itemProp='image'/>
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                            <Image src={Image7} alt="Earth Drilling image" class="bi bi-play-circle-fill iconss"/>
+                            <Image src={Image7} itemProp='image' alt="MahaLaxmi Earth Drilling image" class="bi bi-play-circle-fill iconss"/>
                             </div>
-                            <h4 class="card-heading mb-3 fw-bold">Earth Drilling</h4>
-                            <p className='card-paragraph'>Earth Drilling has provided environmental, geotechnical, oil sands, mining, civil construction and water well </p>
+                            <h4 class="card-heading mb-3 fw-bold" itemProp='heading'>Earth Drilling</h4>
+                            <p className='card-paragraph' itemProp='description'>Earth Drilling has provided environmental, geotechnical, oil sands, mining, civil construction and water well </p>
                         </div>
                     </div>
                 </div>
