@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Image4 from '../images/gallery5.png'
 import Image5 from '../images/gallery4.png'
 import Image6 from '../images/gallery7.png'
 import Image9 from '../images/gallery6.png'
