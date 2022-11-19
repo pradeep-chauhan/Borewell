@@ -8,6 +8,7 @@ import Image11 from '../images/gallery9.png'
 import Image12 from '../images/gallery10.png'
 import Image13 from '../images/gallery11.png'
 import Image14 from '../images/gallery12.png'
+import Image15 from '../images/gallery13.png'
 
 
 import Heading from '../component/Heading'
@@ -56,7 +57,7 @@ const Gallery = () => {
                     </div>
                     <div class="col-12">
                         <div class="project-item">
-                        <Image className='img-fluid' alt="Earth Drilling image" src={Image4} itemProp='image'/>
+                        <Image className='img-fluid' alt="Earth Drilling image" src={Image15} itemProp='image'/>
                         </div>
                     </div>
                 </div>
