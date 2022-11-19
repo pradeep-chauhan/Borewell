@@ -1,13 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
-import Image1 from '../images/Temp-400x500 (1).png'
-import Image2 from '../images/Temp-400x300 (1).png'
-import Image3 from '../images/Temp-400x300 (4).png'
-import Image4 from '../images/Temp-400x500 (2).png'
-import Image5 from '../images/Temp-400x300 (3).png'
-import Image6 from '../images/Temp-400x500 (3).png'
-import Image9 from '../images/Temp-400x300.png'
-import Image10 from '../images/Temp-400x500.png'
+import Image4 from '../images/gallery5.png'
+import Image5 from '../images/gallery4.png'
+import Image6 from '../images/gallery7.png'
+import Image9 from '../images/gallery6.png'
+import Image11 from '../images/gallery9.png'
+import Image12 from '../images/gallery10.png'
+import Image13 from '../images/gallery11.png'
+import Image14 from '../images/gallery12.png'
+
+
 import Heading from '../component/Heading'
 const Gallery = () => {
   return (
@@ -26,7 +28,7 @@ const Gallery = () => {
                     </div>
                     <div class="col-12">
                         <div class="project-item w-100 h-100">
-                        <Image className='img-fluid w-100 h-100'  alt="MahaLaxmi Borewell Ground Water" src={Image10} itemProp='image'/>
+                        <Image className='img-fluid w-100 h-100'  alt="MahaLaxmi Borewell Ground Water" src={Image13} itemProp='image'/>
                         </div>
                     </div>
                 </div>
@@ -35,12 +37,12 @@ const Gallery = () => {
                 <div class="row g-3">
                     <div class="col-12">
                         <div class="project-item">
-                        <Image className='img-fluid'  alt="MahaLaxmi Borewell Borewell Drilling" src={Image1} itemProp='image'/>
+                        <Image className='img-fluid'  alt="MahaLaxmi Borewell Borewell Drilling" src={Image12} itemProp='image'/>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="project-item">
-                        <Image className='img-fluid' alt="MahaLaxmi Borewell Earth Drilling" src={Image2} itemProp='image'/>
+                        <Image className='img-fluid' alt="MahaLaxmi Borewell Earth Drilling" src={Image14} itemProp='image'/>
                         </div>
                     </div>
                 </div>
@@ -49,7 +51,7 @@ const Gallery = () => {
                 <div class="row g-3">
                     <div class="col-12">
                         <div class="project-item">
-                        <Image className='img-fluid'  alt="Borewell Drilling image" src={Image3} itemProp='image'/>
+                        <Image className='img-fluid'  alt="Borewell Drilling image" src={Image11} itemProp='image'/>
                         </div>
                     </div>
                     <div class="col-12">
