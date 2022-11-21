@@ -15,9 +15,9 @@ export default class Testimonials extends Component {
   render() {
     return (
       <section className="row-xxl bg-color" >
-        <div className="container" id="testimonial">
+        <div className="container" id="testimonial" itemprop="review" itemscope itemtype="https://schema.org/Review">
           <div className="container-fluid py-5">
-            <Heading heading="Testimonial" subHeading="You Can See Our Clients Feedback" itemProp='heading'/>
+            <Heading heading="Testimonial" subHeading="You Can See Our Clients Feedback" itemprop="author"/>
             <div className="row justify-content-center">
               <div className="col-lg-3 d-none d-lg-block">
                 <div className="testimonial-left h-100">
@@ -48,9 +48,9 @@ export default class Testimonials extends Component {
                         <Messenger></Messenger>
                       </div>
                     </div>
-                    <p className="fs-5 fst-italic" itemProp='description'> Cost involved in the project was clearly explained. It was reasonable enough. Installation was followed with accurate scientific method.</p>
+                    <p className="fs-5 fst-italic" itemprop="reviewBody"> Cost involved in the project was clearly explained. It was reasonable enough. Installation was followed with accurate scientific method.</p>
                     <hr className="w-25 mx-auto" />
-                    <h5 itemProp='heading'>Mr. Praveen</h5>
+                    <h5 itemprop="author">Mr. Praveen</h5>
                   </div>
                   <div className="testimonial-item text-center">
                     <div className="position-relative mb-5">
@@ -59,9 +59,9 @@ export default class Testimonials extends Component {
                         <Messenger></Messenger>
                       </div>
                     </div>
-                    <p className="fs-5 fst-italic" itemProp='description'> It's my pleasure gaining best information about process followed at installation. MahaLaxmi has expert Ground Water Surveyors to predict with accuracy.</p>
+                    <p className="fs-5 fst-italic" itemprop="reviewBody"> It's my pleasure gaining best information about process followed at installation. MahaLaxmi has expert Ground Water Surveyors to predict with accuracy.</p>
                     <hr className="w-25 mx-auto" />
-                    <h5 itemProp='heading'>Mr. Ravi</h5>
+                    <h5 itemprop="author">Mr. Ravi</h5>
                   </div>
                   <div className="testimonial-item text-center">
                     <div className="position-relative mb-5">
@@ -70,9 +70,9 @@ export default class Testimonials extends Component {
                         <Messenger />
                       </div>
                     </div>
-                    <p className="fs-5 fst-italic" itemProp='description'>  There was no hindrance at work. Team worked sincerely with less supervision. They proved their skills.</p>
+                    <p className="fs-5 fst-italic" itemprop="reviewBody">  There was no hindrance at work. Team worked sincerely with less supervision. They proved their skills.</p>
                     <hr className="w-25 mx-auto" />
-                    <h5 itemProp='heading'>Mr. Karthik</h5>
+                    <h5 itemprop="author">Mr. Karthik</h5>
                   </div>
                 </Carousel>
               </div>
