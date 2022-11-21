@@ -18,6 +18,9 @@
   height: 250px;
   width: 250px;
 }
+.contact-us-font{
+  font-size: 16.9px !important;
+}
 @media (max-width:480px) {
   .product-img{
     height: 150px;

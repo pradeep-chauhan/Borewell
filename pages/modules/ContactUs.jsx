@@ -18,7 +18,7 @@ const ContactUs = () => {
                 <Image src={Image1} alt="MahaLaxmi location" itemProp='image'/>
               </div>
               <div className='col-md-10 col-xl-10 col-lg-10 col-sm-11'>
-                <p className='contactUs fs-5' itemProp='address'>Bedwas, bus stand, Airport Rd, Bus Stand Bedwas, Transport Nagar, Udaipur, Rajasthan 313024</p>
+                <p className='contactUs contact-us-font' itemProp='address'>Bedwas, bus stand, Airport Rd, Bus Stand Bedwas, Transport Nagar, Udaipur, Rajasthan 313024</p>
               </div>
             </div>
             <div className='row mx-1'>
@@ -26,7 +26,7 @@ const ContactUs = () => {
                 <Image src={Image2} alt="MahaLaxmi Phone" itemProp='image'/>
               </div>
               <div className='col-md-11 col-xl-11 col-lg-11 col-sm-11'>
-                <p className='contactUs' itemProp='phone'><a href="tel:+919928845025" className="">+91-9928845025</a> , <a href="tel:+919782525025" className="">+91-9782525025</a></p>
+                <p className='contactUs' itemProp='phone'><a href="tel:+919928845025" className="contact-us-font">+91-9928845025</a> , <a href="tel:+919782525025" className="contact-us-font">+91-9782525025</a></p>
               </div>
             </div>
             <div className='row mx-1'>
@@ -34,7 +34,7 @@ const ContactUs = () => {
                 <Image src={Image3} alt="MahaLaxmi Email" itemProp='image'/>
               </div>
               <div className='col-md-11 col-xl-11 col-lg-11 col-sm-11'>
-                <p className='contactUs' itemProp='email'><a href="mailto:mloharmalviya50@gmail.com" className="fs-5"> mloharmalviya50@gmail.com </a></p>
+                <p className='contactUs' itemProp='email'><a href="mailto:mloharmalviya50@gmail.com" className="contact-us-font"> mloharmalviya50@gmail.com </a></p>
               </div>
             </div>
             <div className='row  mx-1'>
@@ -42,7 +42,7 @@ const ContactUs = () => {
                 <Image src={Image4} alt="MahaLaxmi Time" itemProp='image'/>
               </div>
               <div className='col-md-11 col-xl-11 col-lg-11 col-sm-11'>
-                <p className='contactUs fs-5' itemProp='time'>Mon - Sat:- 9:00 am - 7:00 pm,</p>
+                <p className='contactUs contact-us-font' itemProp='time'>Mon - Sat:- 9:00 am - 7:00 pm,</p>
               </div>
             </div>
           </div>
