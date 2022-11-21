@@ -5,7 +5,7 @@ const About = () => {
         <div class="row-xxl py-5 bg-color" id='about'>
             <div class="container">
                 <div class="row ">
-                    <div class="col-lg-12  wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="col-lg-12  wow fadeInUp" data-wow-delay="0.5s" itemscope itemtype="https://schema.org/AboutPage">
                         <div class="h-100">
                             <Heading heading="About Us" itemProp='heading'/>
                             <p itemProp='description'>Mahalaxmi Borewells Udaipur is recognized as a leading and reliable multi-disciplinary drilling contractor based in Udaipur. With more than 32 year's of experience in this business, the company has been offering the best solutions for all kinds of water-related problems. Our highly experienced drilling operators and dedicated technical personnel are an integral part of the company who has perfection in borewell drilling.</p>

@@ -18,7 +18,6 @@
   padding-top: 0% !important;
   padding: 0% !important;
 }
-
 @media screen and (max-device-width: 987px){
   .navbar-nav-drop{
     float: right;

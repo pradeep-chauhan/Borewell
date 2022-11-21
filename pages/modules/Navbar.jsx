@@ -19,7 +19,7 @@ export default function Navigation() {
     let backgroundTransparacyVar = clientWindowHeight / 600;
 
     if (backgroundTransparacyVar < 1) {
-      let paddingVar = 20 - backgroundTransparacyVar * 20;
+      let paddingVar = 5 - backgroundTransparacyVar * 30;
       let boxShadowVar = backgroundTransparacyVar * 0.1;
       setBackgroundTransparacy(backgroundTransparacyVar);
       setPadding(paddingVar);
