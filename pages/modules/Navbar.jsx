@@ -14,12 +14,14 @@ export default function Navigation() {
   const handleScroll = () => {
     setClientWindowHeight(window.scrollY);
   };
-
+  useEffect(() => {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }, []);
   useEffect(() => {
     let backgroundTransparacyVar = clientWindowHeight / 600;
 
     if (backgroundTransparacyVar < 1) {
-      let paddingVar = 5 - backgroundTransparacyVar * 30;
+      let paddingVar = 10 - backgroundTransparacyVar * 2;
       let boxShadowVar = backgroundTransparacyVar * 0.1;
       setBackgroundTransparacy(backgroundTransparacyVar);
       setPadding(paddingVar);
@@ -35,7 +37,7 @@ export default function Navigation() {
         boxShadow: `rgb(0 0 0 / ${boxShadow}) 0px 0px 20px 6px`,
       }}
     >
-      <div class="container">
+      <div class="container navbar-home">
         {clientWindowHeight ? (
           <a class="navbar-brand" id="logo" href="#">Mahalaxmi Borewell</a>
         ) : (
