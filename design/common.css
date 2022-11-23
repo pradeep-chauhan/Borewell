@@ -45,7 +45,6 @@ a:link {
 .gallery-images {
   grid-gap: 25px 25px;
 }
-/*** Project ***/
 .project-item {
   position: relative;
 }
@@ -115,7 +114,6 @@ a:link {
 .icon {
   color: #7cc576;
 }
-/********** Template CSS **********/
 .back-to-top {
   position: fixed;
   display: none;
@@ -126,7 +124,6 @@ a:link {
 .border {
   background-color: #FDF5EB !important;
 }
-/*** About ***/
 .img-twice::before {
   position: absolute;
   content: "";

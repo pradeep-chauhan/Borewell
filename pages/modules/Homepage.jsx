@@ -1,5 +1,4 @@
 import React from 'react'
-import { Whatsapp } from 'react-bootstrap-icons'
 import Image from 'next/image'
 import Image1 from '../images/whatsapp (1).png'
 import Typewriter from 'typewriter-effect';
