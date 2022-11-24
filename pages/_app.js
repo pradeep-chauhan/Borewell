@@ -1,6 +1,4 @@
-import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.css';
-
 import '../design/navbar.css'
 import '../design/homepage.css'
 import '../design/service.css'
